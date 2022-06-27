@@ -16,13 +16,31 @@
 			"iconPath": "../emoji-apple/camera.png"
 		},
 		"_artist_palette": {
-			"iconPath": "../emoji-apple/_artist_palette.png"
+			"iconPath": "../emoji-apple/artist_palette.png"
 		},
 		"_film_roll": {
-			"iconPath": "../emoji-apple/_film_roll.png"
+			"iconPath": "../emoji-apple/film_roll.png"
+		},
+		"_speaker": {
+			"iconPath": "../emoji-apple/speaker.png"
 		},
 		"_file_box": {
-			"iconPath": "../emoji-apple/_file_box.png"
+			"iconPath": "../emoji-apple/file_box.png"
+		},
+		"_package": {
+			"iconPath": "../emoji-apple/package.png"
+		},
+		"_books": {
+			"iconPath": "../emoji-apple/books.png"
+		},
+		"_newspaper": {
+			"iconPath": "../emoji-apple/newspaper.png"
+		},
+		"_shrug": {
+			"iconPath": "../emoji-apple/shrug_woman.png"
+		},
+		"_test_tube": {
+			"iconPath": "../emoji-apple/test_tube.png"
 		},
 	},
 	"folder": "_folder_shut",
@@ -39,13 +57,17 @@
 		"mp4": "_film_roll",
 		"mov": "_film_roll",
 		/******  audios  ******/
-		// "mp3": "",
-		// "wav": "",
+		"mp3": "_speaker",
+		"wav": "_speaker",
 		/******   data   ******/
-		"db": "_file_box",
+		"json": "_file_box",
+		"md": "_books",
 	},
 	"fileNames": {
-		// "test": "",
+		".gitignore": "_shrug",
+		"package.json": "_package",
+		"README.md": "_newspaper",
+		"test": "test_tube",
 	},
 	"showLanguageModeIcons": true,
 }

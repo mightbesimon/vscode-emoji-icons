@@ -1,10 +1,10 @@
 {
 	"iconDefinitions": {
 		"_folder_shut": {
-			"iconPath": "emoji-apple/file_shut.png"
+			"iconPath": "../emoji-apple/folder_shut.png"
 		},
 		"_folder_open": {
-			"iconPath": "emoji-apple/file_open.png"
+			"iconPath": "../emoji-apple/folder_open.png"
 		}
 	},
 	"folder": "_folder_shut",

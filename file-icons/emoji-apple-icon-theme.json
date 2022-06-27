@@ -5,8 +5,47 @@
 		},
 		"_folder_open": {
 			"iconPath": "../emoji-apple/folder_open.png"
-		}
+		},
+		"_file": {
+			"iconPath": "../emoji-apple/file.png"
+		},
+		"_picture": {
+			"iconPath": "../emoji-apple/picture.png"
+		},
+		"_camera": {
+			"iconPath": "../emoji-apple/camera.png"
+		},
+		"_artist_palette": {
+			"iconPath": "../emoji-apple/_artist_palette.png"
+		},
+		"_film_roll": {
+			"iconPath": "../emoji-apple/_film_roll.png"
+		},
+		"_file_box": {
+			"iconPath": "../emoji-apple/_file_box.png"
+		},
 	},
 	"folder": "_folder_shut",
 	"folderExpanded": "_folder_open",
+	"file": "_file",
+	"fileExtensions": {
+		/******  images  ******/
+		"png": "_picture",
+		"jpg": "_picture",
+		"jpeg": "_picture",
+		"heif": "_camera",
+		"svg": "_artist_palette",
+		/******  videos  ******/
+		"mp4": "_film_roll",
+		"mov": "_film_roll",
+		/******  audios  ******/
+		// "mp3": "",
+		// "wav": "",
+		/******   data   ******/
+		"db": "_file_box",
+	},
+	"fileNames": {
+		// "test": "",
+	},
+	"showLanguageModeIcons": true,
 }

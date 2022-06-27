@@ -12,8 +12,8 @@
 	"contributes": {
 		"iconThemes": [
 			{
-				"id": "emoji-icons",
-				"label": "Emoji Icons",
+				"id": "emoji-icons-apple",
+				"label": "Emoji Icons (Apple)",
 				"path": "./file-icons/emoji-apple-icon-theme.json"
 			}
 		]

@@ -1,4 +1,4 @@
-# Emoji Icons 🤷‍♀️
+# Emoji File Icons 🤷‍♀️
 
 Want to stand out from every other dev using material icons?
 
@@ -24,4 +24,5 @@ Feel free to come back every few weeks. This is still a very new project so ther
 # Contributors
 
 - **Simon** - [mightbesimon](https://github.com/mightbesimon)
+- 🤷‍♀️ - the gitignore lady
 - you?

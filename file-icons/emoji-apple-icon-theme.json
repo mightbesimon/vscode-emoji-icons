@@ -67,6 +67,8 @@
 		".gitignore": "_shrug",
 		"package.json": "_package",
 		"README.md": "_newspaper",
+	},
+	"folderNames": {
 		"test": "test_tube",
 	},
 	"showLanguageModeIcons": true,

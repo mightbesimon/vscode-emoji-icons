@@ -1,8 +1,12 @@
 {
 	"name": "emoji-icons",
 	"displayName": "Emoji Icons",
-	"description": "",
-	"version": "0.0.1",
+	"description": "Goof around today!",
+	"icon": "emoji-apple/folder_open.png",
+	"repository": "https://github.com/mightbesimon/vscode-emoji-icons/",
+	"author": "mightbesimon",
+	"publisher": "mightbesimon",
+	"version": "0.1.0",
 	"engines": {
 		"vscode": "^1.64.0"
 	},

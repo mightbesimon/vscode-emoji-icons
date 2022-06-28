@@ -1,75 +1,118 @@
 {
+	"fonts": [
+		{
+			"id": "emoji-apple",
+			"src": [
+				{
+					"path": "../emoji-fonts/emoji-apple.ttf",
+					"format": "truetype",
+				},
+			],
+			"style": "normal",
+			"weight": "normal",
+		},
+	],
 	"iconDefinitions": {
-		"_folder_shut": {
-			"iconPath": "../emoji-apple/folder_shut.png"
+		"📁": {
+			"fontCharacter": "📁",
+			"fontSize": "125%",
+			"fontId": "emoji-apple",
 		},
-		"_folder_open": {
-			"iconPath": "../emoji-apple/folder_open.png"
+		"📂": {
+			"fontCharacter": "📂",
+			"fontSize": "125%",
+			"fontId": "emoji-apple",
 		},
-		"_file": {
-			"iconPath": "../emoji-apple/file.png"
+		"📄": {
+			"fontCharacter": "📄",
+			"fontSize": "125%",
+			"fontId": "emoji-apple",
 		},
-		"_picture": {
-			"iconPath": "../emoji-apple/picture.png"
+		"🏞": {
+			"fontCharacter": "🏞",
+			"fontSize": "125%",
+			"fontId": "emoji-apple",
 		},
-		"_camera": {
-			"iconPath": "../emoji-apple/camera.png"
+		"📷": {
+			"fontCharacter": "📷",
+			"fontSize": "125%",
+			"fontId": "emoji-apple",
 		},
-		"_artist_palette": {
-			"iconPath": "../emoji-apple/artist_palette.png"
+		"🎨": {
+			"fontCharacter": "🎨",
+			"fontSize": "125%",
+			"fontId": "emoji-apple",
 		},
-		"_film_roll": {
-			"iconPath": "../emoji-apple/film_roll.png"
+		"🎞": {
+			"fontCharacter": "🎞",
+			"fontSize": "125%",
+			"fontId": "emoji-apple",
 		},
-		"_speaker": {
-			"iconPath": "../emoji-apple/speaker.png"
+		"🔈": {
+			"fontCharacter": "🔈",
+			"fontSize": "125%",
+			"fontId": "emoji-apple",
 		},
-		"_file_box": {
-			"iconPath": "../emoji-apple/file_box.png"
+		"🗃": {
+			"fontCharacter": "🗃",
+			"fontSize": "125%",
+			"fontId": "emoji-apple",
 		},
-		"_package": {
-			"iconPath": "../emoji-apple/package.png"
+		"📦": {
+			"fontCharacter": "📦",
+			"fontSize": "125%",
+			"fontId": "emoji-apple",
 		},
-		"_books": {
-			"iconPath": "../emoji-apple/books.png"
+		"📚": {
+			"fontCharacter": "📚",
+			"fontSize": "125%",
+			"fontId": "emoji-apple",
 		},
-		"_newspaper": {
-			"iconPath": "../emoji-apple/newspaper.png"
+		"📰": {
+			"fontCharacter": "📰",
+			"fontSize": "125%",
+			"fontId": "emoji-apple",
 		},
-		"_shrug": {
-			"iconPath": "../emoji-apple/shrug_woman.png"
+		"🤷‍♀️": {
+			"fontCharacter": "🤷‍♀️",
+			"fontSize": "125%",
+			"fontId": "emoji-apple",
 		},
-		"_test_tube": {
-			"iconPath": "../emoji-apple/test_tube.png"
+		"🧪": {
+			"fontCharacter": "🧪",
+			"fontSize": "125%",
+			"fontId": "emoji-apple",
 		},
 	},
-	"folder": "_folder_shut",
-	"folderExpanded": "_folder_open",
-	"file": "_file",
+	"folder": "📁",
+	"folderExpanded": "📂",
+	"file": "📄",
 	"fileExtensions": {
 		/******  images  ******/
-		"png": "_picture",
-		"jpg": "_picture",
-		"jpeg": "_picture",
-		"heif": "_camera",
-		"svg": "_artist_palette",
+		"png": "🏞",
+		"jpg": "🏞",
+		"jpeg": "🏞",
+		"heif": "📷",
+		"svg": "🎨",
 		/******  videos  ******/
-		"mp4": "_film_roll",
-		"mov": "_film_roll",
+		"mp4": "🎞",
+		"mov": "🎞",
 		/******  audios  ******/
-		"mp3": "_speaker",
-		"wav": "_speaker",
+		"mp3": "🔈",
+		"wav": "🔈",
 		/******   data   ******/
-		"json": "_file_box",
-		"md": "_books",
+		"json": "🗃",
+		"md": "📚",
 	},
 	"fileNames": {
-		".gitignore": "_shrug",
-		"package.json": "_package",
-		"README.md": "_newspaper",
+		".gitignore": "🤷‍♀️",
+		"package.json": "📦",
+		"README.md": "📰",
 	},
 	"folderNames": {
-		"test": "test_tube",
+		"test": "🧪",
+		"tests": "🧪",
+		"node_modules": "📦",
 	},
 	"showLanguageModeIcons": true,
 }

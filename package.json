@@ -2,7 +2,7 @@
 	"name": "emoji-icons",
 	"displayName": "Emoji File Icons",
 	"description": "Goof around today!",
-	"icon": "emoji-apple/folder_open.png",
+	"icon": "thumbnails/folder-open.png",
 	"galleryBanner": {
 		"color": "#23282f",
 		"theme": "dark"
@@ -10,7 +10,7 @@
 	"repository": "https://github.com/mightbesimon/vscode-emoji-icons/",
 	"author": "mightbesimon",
 	"publisher": "mightbesimon",
-	"version": "0.1.1",
+	"version": "0.2.0",
 	"engines": {
 		"vscode": "^1.64.0"
 	},
@@ -20,9 +20,31 @@
 	"contributes": {
 		"iconThemes": [
 			{
+				"id": "emoji-file-icons",
+				"label": "Emoji File Icons",
+				"path": "./file-icons/emoji-icon-theme.json"
+			},
+			{
 				"id": "emoji-file-icons-apple",
 				"label": "Emoji File Icons (Apple)",
 				"path": "./file-icons/emoji-apple-icon-theme.json"
+			}
+		],
+		"productIconThemes": [
+			{
+				"id": "emoji-product-icons",
+				"label": "Emoji Product Icons",
+				"path": "./product-icons/emoji-product-icon-theme.json"
+			},
+			{
+				"id": "emoji-product-icons-serious",
+				"label": "Emoji Product Icons (Serious)",
+				"path": "./product-icons/emoji-apple-serious-product-icon-theme.json"
+			},
+			{
+				"id": "emoji-product-icons-apple",
+				"label": "Emoji Product Icons (Apple)",
+				"path": "./product-icons/emoji-apple-product-icon-theme.json"
 			}
 		]
 	}

@@ -1,0 +1,91 @@
+{
+	"iconDefinitions": {
+		"📁": {
+			"fontCharacter": "📁",
+			"fontSize": "125%",
+		},
+		"📂": {
+			"fontCharacter": "📂",
+			"fontSize": "125%",
+		},
+		"📄": {
+			"fontCharacter": "📄",
+			"fontSize": "125%",
+		},
+		"🏞": {
+			"fontCharacter": "🏞",
+			"fontSize": "125%",
+		},
+		"📷": {
+			"fontCharacter": "📷",
+			"fontSize": "125%",
+		},
+		"🎨": {
+			"fontCharacter": "🎨",
+			"fontSize": "125%",
+		},
+		"🎞": {
+			"fontCharacter": "🎞",
+			"fontSize": "125%",
+		},
+		"🔈": {
+			"fontCharacter": "🔈",
+			"fontSize": "125%",
+		},
+		"🗃": {
+			"fontCharacter": "🗃",
+			"fontSize": "125%",
+		},
+		"📦": {
+			"fontCharacter": "📦",
+			"fontSize": "125%",
+		},
+		"📚": {
+			"fontCharacter": "📚",
+			"fontSize": "125%",
+		},
+		"📰": {
+			"fontCharacter": "📰",
+			"fontSize": "125%",
+		},
+		"🤷‍♀️": {
+			"fontCharacter": "🤷‍♀️",
+			"fontSize": "125%",
+		},
+		"🧪": {
+			"fontCharacter": "🧪",
+			"fontSize": "125%",
+		},
+	},
+	"folder": "📁",
+	"folderExpanded": "📂",
+	"file": "📄",
+	"fileExtensions": {
+		/******  images  ******/
+		"png": "🏞",
+		"jpg": "🏞",
+		"jpeg": "🏞",
+		"heif": "📷",
+		"svg": "🎨",
+		/******  videos  ******/
+		"mp4": "🎞",
+		"mov": "🎞",
+		/******  audios  ******/
+		"mp3": "🔈",
+		"wav": "🔈",
+		/******   data   ******/
+		"json": "🗃",
+		"md": "📚",
+	},
+	"fileNames": {
+		".gitignore": "🤷‍♀️",
+		"package.json": "📦",
+		"README.md": "📰",
+	},
+	"folderNames": {
+		"test": "🧪",
+		"tests": "🧪",
+		"node_modules": "📦",
+	},
+	"showLanguageModeIcons": true,
+}

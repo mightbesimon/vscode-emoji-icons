@@ -12,7 +12,16 @@ Feel free to come back every few weeks. This is still a very new project so ther
 
 You can enable file icons independently of [product icons](#emoji-product-icons)
 
-![example](thumbnails/file-icons.png)
+<table>
+	<tr>
+		<td>
+			<img alt="root" src="thumbnails/file-icons-1.png" />
+		</td>
+		<td>
+			<img alt="src" src="thumbnails/file-icons-2.png" />
+		</td>
+	</tr>
+</table>
 
 ## Emoji File Icons
 
@@ -33,7 +42,7 @@ You can enable file icons independently of [file icons](#file-icons-pack)
 			<img alt="activity bar" src="thumbnails/activity-bar.png" />
 		</td>
 		<td>
-			<img alt="refresh" src="thumbnails/refresh.png" />
+			<img alt="debug" src="thumbnails/debug.png" />
 			<img alt="status bar" src="thumbnails/status-bar-left.png" />
 		</td>
 	</tr>
@@ -41,13 +50,14 @@ You can enable file icons independently of [file icons](#file-icons-pack)
 <table>
 	<tr>
 		<td>
-			<img alt="run" src="thumbnails/editor-run.png" />
-		</td>
-		<td>
+			<img alt="refresh" src="thumbnails/refresh.png" />
 			<img alt="preview" src="thumbnails/editor-preview.png" />
 		</td>
 		<td>
+			<img alt="run" src="thumbnails/editor-run.png" />
 			<img alt="split" src="thumbnails/editor-split.png" />
+		</td>
+		<td>
 		</td>
 	</tr>
 </table>
@@ -101,14 +111,31 @@ If you are on Mac OS you do not need to select this one.
 special files
 
 - 🤷‍♀️ .gitignore
-- 📦 package.json
 - 📰 README.md
+- 📦 package.json
+- 🔒 package-lock.json
+- ⚙️ tsconfig.json
+- ⚙️ settings.json (.vscode)
+- 🚀 launch.json (.vscode)
+- ⚙️ config.json
+- 🌠 favicon.ico
+- 🤖 robots.txt
 
 file extensions
 
 - 📄 default files
+- 📝 .txt
+- 🐍 .py
+- 📘 .ts
+- ⚛️ .tsx / .jsx (react)
+- 💅 .styles.ts (styled-components)
+- 💄 .css
+- 🌏 .html
 - 🗃 .json
 - 📚 .md
+- 🤐 .zip
+- ⚙️ .env / .env.test / .env.development / .env.production / .config
+- 🚀 .yml / .yaml
 - 🏞 .png / .jpg / .jpeg
 - 📷 .heif
 - 🎨 .svg
@@ -118,5 +145,21 @@ file extensions
 folders
 
 - 📁/📂 default folder
-- 🧪 test / tests
+- ⚙️ .vscode
 - 📦 node_modules
+- ⛺️ temp
+- ⚙️ config / setting / settings
+- 🌠 images / thumbnails
+- 🧪 test / tests
+- 🔨 build
+- 🌏 public
+- 🏠 home
+- 🚰 src
+- 🏛 assets
+- 🧱 components
+- 🔣 types
+- 👀 view / views
+- 🛠 util / utils / utility / utilities
+- 🔓 authenticated
+- 🔒 unauthenticated
+- 🔐 authentication

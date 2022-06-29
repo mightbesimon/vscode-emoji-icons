@@ -1,5 +1,7 @@
 # Emoji File Icons 🤷‍♀️
 
+[Product Icons](#emoji-product-icons) also here
+
 Want to stand out from every other dev using material icons?
 
 Goof around a bit today!
@@ -10,7 +12,7 @@ Feel free to come back every few weeks. This is still a very new project so ther
 
 # File Icons Pack
 
-You can enable file icons independently of [product icons](#emoji-product-icons)
+You can enable file icons independently of [product icons](#emoji-product-icons-pack)
 
 <table>
 	<tr>
@@ -86,6 +88,8 @@ If you are on Mac OS you do not need to select this one.
 # Todo List
 
 🚧 change skin tones or gender of emojis in settings
+
+🚧 customise matches
 
 🚧 support more file types and folders
 

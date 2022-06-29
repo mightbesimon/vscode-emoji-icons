@@ -1,4 +1,17 @@
 {
+	"fonts": [
+		{
+			"id": "emoji-apple",
+			"src": [
+				{
+					"path": "../emoji-fonts/emoji-apple.ttf",
+					"format": "truetype",
+				},
+			],
+			"style": "normal",
+			"weight": "normal",
+		},
+	],
 	"iconDefinitions": {
 		/******  activity bar  ******/
 		"files": {

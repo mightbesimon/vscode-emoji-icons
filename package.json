@@ -10,7 +10,7 @@
 	"repository": "https://github.com/mightbesimon/vscode-emoji-icons/",
 	"author": "mightbesimon",
 	"publisher": "mightbesimon",
-	"version": "0.2.2",
+	"version": "0.99.99",
 	"engines": {
 		"vscode": "^1.64.0"
 	},

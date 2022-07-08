@@ -124,6 +124,9 @@ special files
 - ⚙️ config.json
 - 🌠 favicon.ico
 - 🤖 robots.txt
+- 👩‍🔬 .env.test
+- 👷‍♂️ .env.development
+- 👨‍🚀 .env.production
 
 file extensions
 
@@ -138,9 +141,10 @@ file extensions
 - 🗃 .json
 - 📚 .md
 - 🤐 .zip
-- ⚙️ .env / .env.test / .env.development / .env.production / .config
+- ⚙️ .env / .config
 - 🚀 .yml / .yaml
 - 🏞 .png / .jpg / .jpeg
+- 💃 .gif
 - 📷 .heif
 - 🎨 .svg
 - 🎞 .mp4 / .mov

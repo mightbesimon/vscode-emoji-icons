@@ -28,6 +28,10 @@
 			"fontCharacter": "🎨",
 			"fontSize": "125%",
 		},
+		"💃": {
+			"fontCharacter": "💃",
+			"fontSize": "125%",
+		},
 		"🎞": {
 			"fontCharacter": "🎞",
 			"fontSize": "125%",
@@ -156,6 +160,18 @@
 			"fontCharacter": "🔐",
 			"fontSize": "125%",
 		},
+		"👩‍🔬": {
+			"fontCharacter": "👩‍🔬",
+			"fontSize": "125%",
+		},
+		"👷‍♂️": {
+			"fontCharacter": "👷‍♂️",
+			"fontSize": "125%",
+		},
+		"👨‍🚀": {
+			"fontCharacter": "👨‍🚀",
+			"fontSize": "125%",
+		},
 	},
 	"folder": "📁",
 	"folderExpanded": "📂",
@@ -174,9 +190,6 @@
 		"md": "📚",
 		"zip": "🤐",
 		"env": "⚙️",
-		"env.test": "⚙️",
-		"env.development": "⚙️",
-		"env.production": "⚙️",
 		"config": "⚙️",
 		"yml": "🚀",
 		"yaml": "🚀",
@@ -184,6 +197,7 @@
 		"png": "🏞",
 		"jpg": "🏞",
 		"jpeg": "🏞",
+		"gif": "💃",
 		"heif": "📷",
 		"svg": "🎨",
 		/******  videos  ******/
@@ -198,6 +212,9 @@
 		"README.md": "📰",
 		"package.json": "📦",
 		"package-lock.json": "🔒",
+		".env.test": "👩‍🔬",
+		".env.development": "👷‍♂️",
+		".env.production": "👨‍🚀",
 		"tsconfig.json": "⚙️",
 		"settings.json": "⚙️",
 		"launch.json": "🚀",

@@ -37,6 +37,25 @@ globe
 go-to-file car
 ...unfinished
 fork-emoji
+🦺
+♠️♣️♥️♦️
+🃏
+🀄️
+docker
+c
+cpp
+cs
+🗺 .map
+🛢 db, sqlite, sqlite3, mysql
+.git folder
+jar
+java
+class
+log
+ruby
+keyboardlock
+playwrite
+swift
 
 😘🤨🧐🥳😢😠😡🤬😳🥵🥶🤔🤭🤫😶😬😵😴🤐🤢🤮🤕🤠😈
 💩🤡👻💀☠️🎃🤖

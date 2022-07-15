@@ -1,0 +1,100 @@
+{
+	"fonts": [
+		{
+			"id": "emoji-apple",
+			"src": [
+				{
+					"path": "../emoji-fonts/emoji-apple.ttf",
+					"format": "truetype",
+				},
+			],
+			"style": "normal",
+			"weight": "normal",
+		},
+	],
+	"iconDefinitions": {
+		/******  activity bar  ******/
+		"extensions": {
+			"fontCharacter": "📦",
+			"fontId": "emoji-apple"
+		},
+		"beaker": {
+			"fontCharacter": "🧪",
+			"fontId": "emoji-apple"
+		},
+		"account": {
+			"fontCharacter": "👤",
+			"fontId": "emoji-apple"
+		},
+		"settings-gear": {
+			"fontCharacter": "⚙️",
+			"fontId": "emoji-apple"
+		},
+		/******   status bar   ******/
+		"warning": {
+			"fontCharacter": "⚠️",
+			"fontId": "emoji-apple"
+		},
+		"error": {
+			"fontCharacter": "🚨",
+			"fontId": "emoji-apple"
+		},
+		"bell": {
+			"fontCharacter": "🔔",
+			"fontId": "emoji-apple"
+		},
+		"bell-dot": {
+			"fontCharacter": "📣",
+			"fontId": "emoji-apple"
+		},
+		/******    toolbar     ******/
+		"open-preview": {
+			"fontCharacter": "👀",
+			"fontId": "emoji-apple"
+		},
+		"trash": {
+			"fontCharacter": "🗑",
+			"fontId": "emoji-apple"
+		},
+		"trashcan": {
+			"fontCharacter": "🗑",
+			"fontId": "emoji-apple"
+		},
+		"bug": {
+			"fontCharacter": "🐞",
+			"fontId": "emoji-apple"
+		},
+		"debug": {
+			"fontCharacter": "🐞",
+			"fontId": "emoji-apple"
+		},
+		"gear": {
+			"fontCharacter": "⚙️",
+			"fontId": "emoji-apple"
+		},
+		"lock": {
+			"fontCharacter": "🔒",
+			"fontId": "emoji-apple",
+		},
+		"unlock": {
+			"fontCharacter": "🔓",
+			"fontId": "emoji-apple",
+		},
+		"comment": {
+			"fontCharacter": "💬",
+			"fontId": "emoji-apple"
+		},
+		"comment-discussion": {
+			"fontCharacter": "💬",
+			"fontId": "emoji-apple"
+		},
+		"light-bulb": {
+			"fontCharacter": "💡",
+			"fontId": "emoji-apple"
+		},
+		"lightbulb": {
+			"fontCharacter": "💡",
+			"fontId": "emoji-apple"
+		},
+	},
+}

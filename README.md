@@ -155,7 +155,7 @@ file extensions
 - 📒 .js
 - ⚛️ .tsx / .jsx (react)
 - 💅 .styles.ts (styled-components)
-- 💄 .css
+- 💅 .css / .scss
 - 🌏 .html
 - 🛢 .db / .sqlite / .sqlite3 / .mysql
 - 🛢 .sql

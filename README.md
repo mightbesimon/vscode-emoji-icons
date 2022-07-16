@@ -81,9 +81,15 @@ Other: [ 🗑 🐞 ⚙️ 🔒/🔓 💬 💡  ]
 
 🚧 customise matches
 
-🚧 support more file types and folders
-
 🚧 change between Apple, and system emojis
+
+✅ support more file types and folders
+
+✅ automate publishing workflow
+
+✅ automate update README.md
+
+✅ automate generate file icon themes from reference file
 
 ✅ product icons (icons in the bar on your left) 🗂🔎👤⚙️
 

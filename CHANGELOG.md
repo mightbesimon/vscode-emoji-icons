@@ -33,9 +33,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 v1 release 🥳
 
 - ✨ [feature]: add more markdown special files
-- 🚀 [CI/CD]: publish pipeline
-- 🧑‍💻 [dev]: auto update README.md
-- 🧑‍💻 [dev]: auto generate file icon themes from reference file
+- 🚀 [CI/CD]: automate publishing workflow
+- 🧑‍💻 [dev]: automate update README.md
+- 🧑‍💻 [dev]: automate generate file icon themes from reference file
 - 🗑 [deprecate]: apple emoji font because it is still not working even after the fix
 
 ## v0.99.99 — 8 July 2022

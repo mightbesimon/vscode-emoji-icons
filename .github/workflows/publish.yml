@@ -3,7 +3,7 @@ name: publish
 on:
   push:
     tags:
-      - v.*.*.*
+      - v*.*.*
 
 env:
   VERSION: ${{ github.ref#refs/tags/v }}

@@ -1,18 +1,22 @@
 special files
 
 - 🤷‍♀️ .gitignore
-- 📰 README.md
-- 🗓 CHANGELOG.md
-- 👩‍⚖️ LICENSE.md
-- 💡 ideas.md / ideas.txt
+- 📰 README.md / README
+- 🗓 CHANGELOG.md / CHANGELOG
+- 👩‍⚖️ LICENSE.md / LICENSE
+- 💡 ideas.md / ideas.txt / ideas
+- ☑️ todo.md / todo.txt / todo
 - 📦 package.json
 - 🔒 package-lock.json
 - ⚙️ tsconfig.json
+- 🃏 jest.config.ts
+- 🎭 playwright.config.ts
 - ⚙️ .vscode/settings.json
 - 🚀 .vscode/launch.json
 - ⚙️ config.json
 - 🌠 favicon.ico
 - 🤖 robots.txt
+- 🐳 DOCKERFILE
 - 👩‍🔬 .env.test
 - 👷‍♂️ .env.development
 - 👨‍🚀 .env.production
@@ -21,19 +25,36 @@ file extensions
 
 - 📄 default files
 - 📝 .txt
+- 🐚 .sh / .bash
 - 🐍 .py
+- ☕️ .java
+- 🔠 .class
+- 🍯 .jar
+- 🏎 .c / .cpp
+- 🤠 .h / .hpp
+- #️⃣ .cs
+- 🦩 .swift
+- 💎 .rb
 - 📘 .ts
 - 📒 .js
 - ⚛️ .tsx / .jsx (react)
 - 💅 .styles.ts (styled-components)
 - 💄 .css
 - 🌏 .html
+- 🛢 .db / .sqlite / .sqlite3 / .mysql
+- 🛢 .sql
 - 🗃 .json
 - 📚 .md
 - 🤐 .zip
+- 🚀 .yml / .yaml
 - ⚙️ .env / .cfg / .config
 - ⚙️ .ini
-- 🚀 .yml / .yaml
+- 💿 .iso
+- 📋 .log
+- 🗺 .map
+- 🔒 .lock
+- 📊 .stats
+- ☑️ .todo
 - 🏞 .png / .jpg / .jpeg
 - 💃 .gif
 - 📷 .heif
@@ -56,9 +77,11 @@ folders
 - 🚰 src
 - 🏛 assets
 - 🧱 components
-- 🔣 types
+- 🔠 types
 - 🛠 util / utils / utility / utilities
 - 👀 view / views
 - 🔓 authenticated
 - 🔒 unauthenticated
-- 🔐 authentication
+- 🔐 authentication / auth
+- 🎣 hook / hooks
+- 🗄 data

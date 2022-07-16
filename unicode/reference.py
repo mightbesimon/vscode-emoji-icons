@@ -8,6 +8,7 @@
 
 from dataclasses import dataclass
 from enum import Enum
+from turtle import width
 from typing import List
 
 ################################################################
@@ -28,7 +29,7 @@ class ReferenceItem:
 	names: List[str]
 	comment: str
 
-	def __init__(self, icon_type: IconType, text: str):
+	def __init__(self, icon_type:IconType, text:str):
 		self.icon_type = icon_type
 		text = text[2:]
 		self.emoji, text = text.split(' ', 1)
@@ -50,7 +51,7 @@ class IconItem:
 ################################################################
 class EmojiReference:
 
-	def __init__(self, filename: str):
+	def __init__(self, filename:str):
 		self.filename: str = filename
 		self.file_extensions: List[ReferenceItem] = []
 		self.file_names     : List[ReferenceItem] = []
@@ -79,7 +80,7 @@ class EmojiReference:
 		]
 
 	@staticmethod
-	def references_to_icons(references: List[ReferenceItem]) -> List[IconItem]:
+	def references_to_icons(references:List[ReferenceItem]) -> List[IconItem]:
 		return [
 			IconItem(
 				icon_type=reference.icon_type,
@@ -129,13 +130,28 @@ class EmojiReference:
 			'}'
 		)
 
-	def export_icon_theme(self, filename: str=None) -> 'EmojiReference':
+	def export_icon_theme(self, filename:str=None) -> 'EmojiReference':
 		filename = filename if filename else 'file-icons/emoji-icon-theme.json'
 
 		with open(filename, 'w') as file:
 			file.write(self.icon_theme())
 
 		return self
+
+	def update_readme(self, filename:str=None):
+		filename = filename if filename else 'README.md'
+
+		with open(filename, 'r') as file:
+			readme = file.read()
+
+		with open(self.filename, 'r') as file:
+			emoji_reference = file.read()
+
+		with open(filename, 'w') as file:
+			file.write(
+				readme[:readme.index('special files\n\n')]
+				+ emoji_reference
+			)
 
 
 ################################################################
@@ -145,4 +161,5 @@ if __name__ == '__main__':
 	(
 		EmojiReference(filename='file-icons/emoji-reference.md')
 			.export_icon_theme()
+			.update_readme()
 	)

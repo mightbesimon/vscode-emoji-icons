@@ -30,7 +30,7 @@ class Emoji:
 	status: EmojiStatus
 	version: str
 
-	def __init__(self, text: str):
+	def __init__(self, text:str):
 		unicode, text = text.split('; ')
 		self.unicode = unicode.strip().split(' ')
 		status, text = text.split('# ')
@@ -43,7 +43,7 @@ class Subgroup:
 	name: str
 	emojis: List[Emoji]
 
-	def __init__(self, text: str):
+	def __init__(self, text:str):
 		self.name, *emojis = text.split('\n')[:-2]
 		emojis = [ Emoji(emoji) for emoji in emojis ]
 		self.emojis = [
@@ -65,7 +65,7 @@ class Group:
 	name: str
 	subgroups: Dict[str, Subgroup]
 
-	def __init__(self, text: str):
+	def __init__(self, text:str):
 		self.name, text = text.split('\n\n', 1)
 		subgroups, subtotal = text.split(f'# {self.name} subtotal:\t\t', 1)
 
@@ -98,7 +98,7 @@ class Group:
 ################################################################
 class UnicodeEmoji:
 
-	def __init__(self, version: str):
+	def __init__(self, version:str):
 		self.filename: str = f'unicode/emoji-v{version}.ini'
 		self.version: str = version
 		self.groups: Dict[str, Group] = {}
@@ -142,7 +142,7 @@ class UnicodeEmoji:
 		print(self.string())
 		return self
 
-	def export_string(self, filename: str=None) -> 'UnicodeEmoji':
+	def export_string(self, filename:str=None) -> 'UnicodeEmoji':
 		filename = filename if filename else f'string-v{self.version}.txt'
 
 		with open(filename, 'w') as file:
@@ -150,7 +150,7 @@ class UnicodeEmoji:
 
 		return self
 
-	def export_vscode(self, filename: str=None) -> 'UnicodeEmoji':
+	def export_vscode(self, filename:str=None) -> 'UnicodeEmoji':
 		filename = filename if filename else f'unicode/vscode-emoji-v{self.version}.txt'
 		content = ','.join(f'"{emoji.emoji}":{{"fontCharacter":"{emoji.emoji}","fontSize":"125%"}}' for emoji in self.all_emojis())
 

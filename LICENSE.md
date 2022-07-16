@@ -1,4 +1,4 @@
-Copyright 2022 mightbesimon.com
+Copyright © 2022 mightbesimon.com
 
 All rights reserved.
 

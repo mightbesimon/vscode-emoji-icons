@@ -1,0 +1,17 @@
+name: publish
+
+on:
+  push:
+    tags:
+      - v.*.*.*
+
+env:
+  VERSION: ${{ github.ref#refs/tags/v }}
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: echo ${{ env.Version }}
+      - run: npx vsce publish ${{ env.VERSION }} -p ${{ secrets.VSCE_PAT }}

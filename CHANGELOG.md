@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.0.0 — 16 July 2022
+
+v1 release 🥳
+
+- ✨ [feature]: add more markdown special files
+- 🧑‍💻 [dev]: auto update README.md
+- 🧑‍💻 [dev]: auto generate file icon themes from reference file
+- 🗑 [deprecate]: apple emoji font because it is still not working even after the fix
+
 ## v0.99.99 — 8 July 2022
 
 - 🔀 [change]: test, dev, prod emojis for special .env files
@@ -35,7 +44,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## v0.1.0 — 28 June 2022
 
-Initial release
+Initial pre-release
 
 - ✨ [feature]: emojis for image, video and audio file types
 - ✨ [feature]: emojis for git and node special files and folders

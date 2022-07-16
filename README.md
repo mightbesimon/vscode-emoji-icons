@@ -112,11 +112,14 @@ special files
 - ☑️ todo.md / todo.txt / todo
 - 📦 package.json
 - 🔒 package-lock.json
+- ⚙️ .npmrc
+- 🤷‍♀️ .npmignore
 - ⚙️ tsconfig.json
 - 🃏 jest.config.ts
 - 🎭 playwright.config.ts
 - ⚙️ .vscode/settings.json
 - 🚀 .vscode/launch.json
+- ☑️ .vscode/tasks.json
 - ⚙️ config.json
 - 🌠 favicon.ico
 - 🤖 robots.txt
@@ -124,6 +127,15 @@ special files
 - 👩‍🔬 .env.test
 - 👷‍♂️ .env.development
 - 👨‍🚀 .env.production
+- 🇳🇿 .env.NZ
+- 🇦🇺 .env.AU
+- 🇨🇳 .env.CN
+- 🇺🇸 .env.US
+- 🇨🇦 .env.CA
+- 🇬🇧 .env.UK
+- 🇩🇪 .env.DE
+- 🇫🇷 .env.FR
+- 🇮🇪 .env.IE
 
 file extensions
 
@@ -169,6 +181,9 @@ file extensions
 folders
 
 - 📁/📂 default folder
+- 🌿 .git
+- 🧑‍💻 .github
+- 🚀 .github/workflows
 - ⚙️ .vscode
 - 📦 node_modules
 - ⛺️ temp

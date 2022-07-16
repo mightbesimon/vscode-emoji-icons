@@ -55,6 +55,7 @@ file extensions
 - 🌏 .html
 - 🛢 .db / .sqlite / .sqlite3 / .mysql
 - 🛢 .sql
+- 🍪 .cookie
 - 🗃 .json
 - 📚 .md
 - 🤐 .zip

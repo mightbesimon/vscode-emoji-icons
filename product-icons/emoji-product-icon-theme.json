@@ -15,7 +15,7 @@
 	"iconDefinitions": {
 		/******  activity bar  ******/
 		"files": {
-			"fontCharacter": "🗂",
+			"fontCharacter": "📑",
 		},
 		"outline-view-icon": {
 			"fontCharacter": "🗺",

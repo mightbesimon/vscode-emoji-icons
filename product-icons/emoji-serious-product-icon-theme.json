@@ -14,6 +14,18 @@
 	],
 	"iconDefinitions": {
 		/******  activity bar  ******/
+		"files": {
+			"fontCharacter": "📑",
+		},
+		"outline-view-icon": {
+			"fontCharacter": "🗺",
+		},
+		"search": {
+			"fontCharacter": "🔎",
+		},
+		"debug-alt": {
+			"fontCharacter": "🕵️‍♂️",
+		},
 		"extensions": {
 			"fontCharacter": "📦",
 			"fontId": "emoji-apple"

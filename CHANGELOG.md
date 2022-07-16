@@ -5,10 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.2.0 — 17 July 2022
+
+- 🔀 [change]: extend serious product icon
+- ✨ [feature]: add `.git`, `.github` and `.github/workflows` folders
+- ✨ [feature]: add country/region config files
+- ✨ [feature]: add npm special files
+
 ## v1.1.0 — 16 July 2022
 
-- ✨ [feature]: add brainstorming files 💡 `ideas.md`, ☑️ `todo.md` and more
 - ✨ [feature]: add Java, C, C++, C#, Swift, Ruby and Shell file types
+- ✨ [feature]: add brainstorming files 💡 `ideas.md`, ☑️ `todo.md` and more
 - ✨ [feature]: add jest and playwright config files
 - ✨ [feature]: add database related file types
 - ✨ [feature]: add `.ini` `.iso` `.log` `.map` `.lock` `.stats` file types

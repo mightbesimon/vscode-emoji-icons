@@ -5,13 +5,12 @@ on:
     tags:
       - v*.*.*
 
-env:
-  VERSION: ${GITHUB_REF#refs/tags/v}
-
 jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: echo ${{ env.Version }}
-      - run: npx vsce publish ${{ env.VERSION }} -p ${{ secrets.VSCE_PAT }}
+      - run: echo ${GITHUB_REF#refs/tags/v} >> $GITHUB_ENV
+      - run: echo ${{ env.VERSION }}
+      - run: echo ${{ github.ref }}
+      - run: npx vsce publish ${{ env.VERSION }} -p ${{ secrets.VSCE_PAT }} --no-git-tag-version

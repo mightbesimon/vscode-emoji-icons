@@ -32,6 +32,7 @@ file extensions
 - 📚 .md
 - 🤐 .zip
 - ⚙️ .env / .cfg / .config
+- ⚙️ .ini
 - 🚀 .yml / .yaml
 - 🏞 .png / .jpg / .jpeg
 - 💃 .gif

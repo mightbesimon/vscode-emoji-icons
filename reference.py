@@ -92,16 +92,19 @@ class EmojiReference:
 		]
 
 	def all_emojis(self) -> List[str]:
-		return sorted( list( set( reference.emoji for reference in
-			self.file_extensions + self.file_names + self.folder_names
-		)))
+		return sorted(
+			list( set( reference.emoji for reference in
+				self.file_extensions + self.file_names + self.folder_names
+			))
+			+ ['📄', '📁', '📂']
+		)
 
 	def icon_theme(self) -> str:
 		defaults = (
 			'"showLanguageModeIcons":true,'
+			'"file": "📄",'
 			'"folder": "📁",'
 			'"folderExpanded": "📂",'
-			'"file": "📄",'
 		)
 		file_extensions = ','.join(
 			f'"{file_extension.name}":"{file_extension.emoji}"'

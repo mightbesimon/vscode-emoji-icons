@@ -29,11 +29,6 @@ You can enable file icons independently of [product icons](#emoji-product-icons-
 
 See [emoji reference](#emoji-reference) below.
 
-## Emoji File Icons (Apple)
-
-Same as [Emoji File Icons](#emoji-file-icons) Icons but with Apple emojis.
-If you are on Mac OS you do not need to select this one.
-
 # Emoji Product Icons Pack
 
 You can enable file icons independently of [file icons](#file-icons-pack)
@@ -66,7 +61,7 @@ You can enable file icons independently of [file icons](#file-icons-pack)
 
 ## Emoji Product Icons
 
-Activity bar: [ 🗂 🗺 🔎 🌿 🩺 📦 🧪 ... 👤 ⚙️ ]
+Activity bar: [ 🗂 🗺 🔎 🌿 🕵️‍♂️ 📦 🧪 ... 👤 ⚙️ ]
 
 Status bar: [ 🌿 🔄/⤴️ 🚨 ⚠️ ... 🔔/📣 ]
 
@@ -74,16 +69,11 @@ Status bar: [ 🌿 🔄/⤴️ 🚨 ⚠️ ... 🔔/📣 ]
 
 minus goofy emojis, only serious emojis
 
-Activity bar: [ ... 📦 🧪 ... 👤 ⚙️ ]
+Activity bar: [ ... 🕵️‍♂️ 📦 🧪 ... 👤 ⚙️ ]
 
 Status bar: [ 🚨 ⚠️ ... 🔔/📣 ]
 
 Other: [ 🗑 🐞 ⚙️ 🔒/🔓 💬 💡  ]
-
-## Emoji Product Icons (Apple)
-
-Same as [Emoji Product Icons](#emoji-product-icons) Icons but with Apple emojis.
-If you are on Mac OS you do not need to select this one.
 
 # Todo List
 
@@ -93,7 +83,7 @@ If you are on Mac OS you do not need to select this one.
 
 🚧 support more file types and folders
 
-✅ change between Apple, and system emojis
+🚧 change between Apple, and system emojis
 
 ✅ product icons (icons in the bar on your left) 🗂🔎👤⚙️
 
@@ -116,11 +106,14 @@ special files
 
 - 🤷‍♀️ .gitignore
 - 📰 README.md
+- 🗓 CHANGELOG.md
+- 👩‍⚖️ LICENSE.md
+- 💡 ideas.md / ideas.txt
 - 📦 package.json
 - 🔒 package-lock.json
 - ⚙️ tsconfig.json
-- ⚙️ settings.json (.vscode)
-- 🚀 launch.json (.vscode)
+- ⚙️ .vscode/settings.json
+- 🚀 .vscode/launch.json
 - ⚙️ config.json
 - 🌠 favicon.ico
 - 🤖 robots.txt
@@ -134,6 +127,7 @@ file extensions
 - 📝 .txt
 - 🐍 .py
 - 📘 .ts
+- 📒 .js
 - ⚛️ .tsx / .jsx (react)
 - 💅 .styles.ts (styled-components)
 - 💄 .css
@@ -141,7 +135,7 @@ file extensions
 - 🗃 .json
 - 📚 .md
 - 🤐 .zip
-- ⚙️ .env / .config
+- ⚙️ .env / .cfg / .config
 - 🚀 .yml / .yaml
 - 🏞 .png / .jpg / .jpeg
 - 💃 .gif
@@ -166,8 +160,8 @@ folders
 - 🏛 assets
 - 🧱 components
 - 🔣 types
-- 👀 view / views
 - 🛠 util / utils / utility / utilities
+- 👀 view / views
 - 🔓 authenticated
 - 🔒 unauthenticated
 - 🔐 authentication

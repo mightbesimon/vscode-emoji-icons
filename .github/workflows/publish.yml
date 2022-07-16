@@ -6,7 +6,7 @@ on:
       - v*.*.*
 
 env:
-  VERSION: ${{ github.ref#refs/tags/v }}
+  VERSION: ${GITHUB_REF#refs/tags/v}
 
 jobs:
   publish:

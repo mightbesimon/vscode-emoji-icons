@@ -124,7 +124,7 @@ class UnicodeEmoji:
 
 		# [status_counts] verify count
 		status_counts = status_counts.split('\n')[:-3]
-		#TODO
+		# filted by status, so subtotal differ
 
 	def count(self) -> int:
 		return sum(group.count() for group in self.groups.values())
@@ -142,16 +142,22 @@ class UnicodeEmoji:
 		print(self.string())
 		return self
 
-	def output_string(self, filename: str=None) -> None:
+	def export_string(self, filename: str=None) -> 'UnicodeEmoji':
 		filename = filename if filename else f'string-v{self.version}.txt'
+
 		with open(filename, 'w') as file:
 			file.write(self.string())
 
-	def output_vscode(self, filename: str=None) -> 'UnicodeEmoji':
+		return self
+
+	def export_vscode(self, filename: str=None) -> 'UnicodeEmoji':
 		filename = filename if filename else f'unicode/vscode-emoji-v{self.version}.txt'
 		content = ','.join(f'"{emoji.emoji}":{{"fontCharacter":"{emoji.emoji}","fontSize":"125%"}}' for emoji in self.all_emojis())
+
 		with open(filename, 'w') as file:
 			file.write(f'{{{content}}}')
+
+		return self
 
 
 ################################################################
@@ -160,5 +166,5 @@ class UnicodeEmoji:
 if __name__ == '__main__':
 	(
 		UnicodeEmoji(version='12.1')
-			.output_vscode()
+			.export_vscode()
 	)

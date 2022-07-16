@@ -23,11 +23,6 @@
 				"id": "emoji-file-icons",
 				"label": "Emoji File Icons",
 				"path": "./file-icons/emoji-icon-theme.json"
-			},
-			{
-				"id": "emoji-file-icons-apple",
-				"label": "Emoji File Icons (Apple)",
-				"path": "./file-icons/emoji-apple-icon-theme.json"
 			}
 		],
 		"productIconThemes": [
@@ -39,12 +34,7 @@
 			{
 				"id": "emoji-product-icons-serious",
 				"label": "Emoji Product Icons (Serious)",
-				"path": "./product-icons/emoji-apple-serious-product-icon-theme.json"
-			},
-			{
-				"id": "emoji-product-icons-apple",
-				"label": "Emoji Product Icons (Apple)",
-				"path": "./product-icons/emoji-apple-product-icon-theme.json"
+				"path": "./product-icons/emoji-serious-product-icon-theme.json"
 			}
 		]
 	}

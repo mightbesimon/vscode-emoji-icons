@@ -1,6 +1,6 @@
-# Emoji File Icons 🤷‍♀️
+# Emoji File Icons 🤷‍♀️ ![publish](https://github.com/mightbesimon/vscode-emoji-icons/actions/workflows/publish.yml/badge.svg)
 
-[Product Icons](#emoji-product-icons) also here
+> [Product Icons](#emoji-product-icons) also here
 
 Want to stand out from every other dev using material icons?
 
@@ -136,6 +136,7 @@ file extensions
 - 📚 .md
 - 🤐 .zip
 - ⚙️ .env / .cfg / .config
+- ⚙️ .ini
 - 🚀 .yml / .yaml
 - 🏞 .png / .jpg / .jpeg
 - 💃 .gif

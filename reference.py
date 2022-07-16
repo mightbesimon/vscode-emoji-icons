@@ -8,7 +8,6 @@
 
 from dataclasses import dataclass
 from enum import Enum
-from turtle import width
 from typing import List
 
 ################################################################
@@ -51,6 +50,33 @@ class IconItem:
 ################################################################
 class EmojiReference:
 
+	@staticmethod
+	def _text_to_references(icon_type:IconType, text:str) -> List[ReferenceItem]:
+		return [
+			ReferenceItem(icon_type, line)
+			for line in text.split('\n')
+			if line.startswith('-') and 'default' not in line
+		]
+
+	@staticmethod
+	def _references_to_icons(references:List[ReferenceItem]) -> List[IconItem]:
+		return [
+			IconItem(
+				icon_type=reference.icon_type,
+				name=name,
+				emoji=reference.emoji,
+			)
+			for reference in references
+			for name in reference.names
+		]
+
+	@staticmethod
+	def _references_to_json(references:List[ReferenceItem]):
+		return ','.join(
+			f'"{file_extension.name}":"{file_extension.emoji}"'
+			for file_extension in EmojiReference._references_to_icons(references)
+		)
+
 	def __init__(self, filename:str):
 		self.filename: str = filename
 		self.file_extensions: List[ReferenceItem] = []
@@ -63,33 +89,17 @@ class EmojiReference:
 			content = file.read()
 
 		content = content[content.index('\n\n')+2:-1]
-		file_names, content = content.split('\n\nfile extensions\n\n')
-		file_extensions, folder_names = content.split('\n\nfolders\n\n')
+		file_names, content = content.split('\n\n### File Extensions\n\n')
+		file_extensions, folder_names = content.split('\n\n### Folders\n\n')
 
-		self.file_extensions = [
-			ReferenceItem(IconType.file_extension, file_extension)
-			for file_extension in file_extensions.split('\n')[1:]
-		]
-		self.file_names = [
-			ReferenceItem(IconType.file_name, file_name)
-			for file_name in file_names.split('\n')
-		]
-		self.folder_names = [
-			ReferenceItem(IconType.folder_name, folder_name)
-			for folder_name in folder_names.split('\n')[1:]
-		]
+		self.file_extensions = EmojiReference._text_to_references(
+			IconType.file_extension, file_extensions)
 
-	@staticmethod
-	def references_to_icons(references:List[ReferenceItem]) -> List[IconItem]:
-		return [
-			IconItem(
-				icon_type=reference.icon_type,
-				name=name,
-				emoji=reference.emoji,
-			)
-			for reference in references
-			for name in reference.names
-		]
+		self.file_names = EmojiReference._text_to_references(
+			IconType.file_name, file_names)
+
+		self.folder_names = EmojiReference._text_to_references(
+			IconType.folder_name, folder_names)
 
 	def all_emojis(self) -> List[str]:
 		return sorted(
@@ -106,18 +116,9 @@ class EmojiReference:
 			'"folder": "📁",'
 			'"folderExpanded": "📂",'
 		)
-		file_extensions = ','.join(
-			f'"{file_extension.name}":"{file_extension.emoji}"'
-			for file_extension in EmojiReference.references_to_icons(self.file_extensions)
-		)
-		file_names = ','.join(
-			f'"{file_name.name}":"{file_name.emoji}"'
-			for file_name in EmojiReference.references_to_icons(self.file_names)
-		)
-		folder_names = ','.join(
-			f'"{folder_name.name}":"{folder_name.emoji}"'
-			for folder_name in EmojiReference.references_to_icons(self.folder_names)
-		)
+		file_extensions = EmojiReference._references_to_json(self.file_extensions)
+		file_names = EmojiReference._references_to_json(self.file_names)
+		folder_names = EmojiReference._references_to_json(self.folder_names)
 		icon_definitions = ','.join(
 			f'"{emoji}":{{"fontCharacter":"{emoji}","fontSize":"125%"}}'
 			for emoji in self.all_emojis()
@@ -152,7 +153,7 @@ class EmojiReference:
 
 		with open(filename, 'w') as file:
 			file.write(
-				readme[:readme.index('special files\n\n')]
+				readme[:readme.index('### Special Files\n\n')]
 				+ emoji_reference
 			)
 

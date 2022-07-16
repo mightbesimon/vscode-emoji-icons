@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: echo ${GITHUB_REF#refs/tags/v} >> $GITHUB_ENV
+      - run: echo VERSION=${GITHUB_REF#refs/tags/v} >> $GITHUB_ENV
       - run: echo ${{ env.VERSION }}
       - run: echo ${{ github.ref }}
       - run: npx vsce publish ${{ env.VERSION }} -p ${{ secrets.VSCE_PAT }} --no-git-tag-version

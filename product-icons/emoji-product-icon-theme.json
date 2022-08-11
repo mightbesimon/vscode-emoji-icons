@@ -1,146 +1,161 @@
 {
-	"fonts": [
-		{
-			"id": "emoji-apple",
-			"src": [
-				{
-					"path": "../emoji-fonts/emoji-apple.ttf",
-					"format": "truetype",
-				},
-			],
-			"style": "normal",
-			"weight": "normal",
-		},
-	],
-	"iconDefinitions": {
-		/******  activity bar  ******/
-		"files": {
-			"fontCharacter": "📑",
-		},
-		"outline-view-icon": {
-			"fontCharacter": "🗺",
-		},
-		"search": {
-			"fontCharacter": "🔎",
-		},
-		"source-control": {
-			"fontCharacter": "🌿",
-		},
-		"debug-alt": {
-			"fontCharacter": "🕵️‍♂️",
-		},
-		"extensions": {
-			"fontCharacter": "📦",
-		},
-		"beaker": {
-			"fontCharacter": "🧪",
-		},
-		"account": {
-			"fontCharacter": "👤",
-		},
-		"settings-gear": {
-			"fontCharacter": "⚙️",
-		},
-		/******   status bar   ******/
-		"git-branch": {
-			"fontCharacter": "🌿",
-		},
-		"sync": {
-			"fontCharacter": "🔄",
-		},
-		"cloud-upload": {
-			"fontCharacter": "⤴️",
-		},
-		"warning": {
-			"fontCharacter": "⚠️",
-		},
-		"error": {
-			"fontCharacter": "🚨",
-		},
-		"info": {
-			"fontCharacter": "ℹ️",
-		},
-		"bell": {
-			"fontCharacter": "🔔",
-		},
-		"bell-dot": {
-			"fontCharacter": "📣",
-		},
-		/******    toolbar     ******/
-		"play": {
-			"fontCharacter": "🏃‍♂️",
-		},
-		"open-preview": {
-			"fontCharacter": "👀",
-		},
-		"compare-changes": {
-			"fontCharacter": "⚖️",
-		},
-		"split-horizontal": {
-			"fontCharacter": "🤸‍♀️",
-		},
-		// "plus": {
-		// 	"fontCharacter": "",
-		// },
-		"trash": {
-			"fontCharacter": "🗑",
-		},
-		"trashcan": {
-			"fontCharacter": "🗑",
-		},
-		"bug": {
-			"fontCharacter": "🐞",
-		},
-		"debug": {
-			"fontCharacter": "🐞",
-		},
-		"check": {
-			"fontCharacter": "☑️",
-		},
-		"clear-all": {
-			"fontCharacter": "🧽",
-		},
-		"filter": {
-			"fontCharacter": "🚰",
-		},
-		"refresh": {
-			"fontCharacter": "🍺",
-		},
-		"gear": {
-			"fontCharacter": "⚙️",
-		},
-		// "close": {
-		// 	"fontCharacter": "🚫",
-		// },
-		"lock": {
-			"fontCharacter": "🔒",
-		},
-		"unlock": {
-			"fontCharacter": "🔓",
-		},
-		"book": {
-			"fontCharacter": "📖",
-		},
-		"comment": {
-			"fontCharacter": "💬",
-		},
-		"comment-discussion": {
-			"fontCharacter": "🗯",
-		},
-		"star": {
-			"fontCharacter": "⭐️",
-		},
-		"debug-stop": {
-			"fontCharacter": "🛑",
-		},
-		"debug-restart": {
-			"fontCharacter": "🎬",
-		},
-		"light-bulb": {
-			"fontCharacter": "💡",
-		},
-		"lightbulb": {
-			"fontCharacter": "💡",
-		},
-	},
+  "fonts": [
+    {
+      "id": "emoji-apple",
+      "src": [
+        {
+          "path": "../emoji-fonts/emoji-apple.ttf",
+          "format": "truetype"
+        }
+      ],
+      "style": "normal",
+      "weight": "normal"
+    }
+  ],
+  "iconDefinitions": {
+    /******  activity bar  ******/
+    "files": {
+      "fontCharacter": "🗃️"
+    },
+    "outline-view-icon": {
+      "fontCharacter": "🗺"
+    },
+    "search": {
+      "fontCharacter": "🔎"
+    },
+    "source-control": {
+      "fontCharacter": "🌿"
+    },
+    "debug-alt": {
+      "fontCharacter": "🚀"
+    },
+    "extensions": {
+      "fontCharacter": "📦"
+    },
+    "beaker": {
+      "fontCharacter": "🧪"
+    },
+    "account": {
+      "fontCharacter": "👤"
+    },
+    "settings-gear": {
+      "fontCharacter": "⚙️"
+    },
+    /******   status bar   ******/
+    "git-branch": {
+      "fontCharacter": "🌿"
+    },
+    "sync": {
+      "fontCharacter": "🔄"
+    },
+    "cloud-upload": {
+      "fontCharacter": "⤴️"
+    },
+    "warning": {
+      "fontCharacter": "⚠️"
+    },
+    "error": {
+      "fontCharacter": "🚨"
+    },
+    "info": {
+      "fontCharacter": "ℹ️"
+    },
+    "bell": {
+      "fontCharacter": "🔔"
+    },
+    "bell-dot": {
+      "fontCharacter": "📣"
+    },
+    /******    toolbar     ******/
+    "play": {
+      "fontCharacter": "▶️"
+    },
+    "open-preview": {
+      "fontCharacter": "👀"
+    },
+    "compare-changes": {
+      "fontCharacter": "⚖️"
+    },
+    "split-horizontal": {
+      "fontCharacter": "🤸‍♀️"
+    },
+    // "plus": {
+    // 	"fontCharacter": "",
+    // },
+    "trash": {
+      "fontCharacter": "🗑"
+    },
+    "trashcan": {
+      "fontCharacter": "🗑"
+    },
+    "bug": {
+      "fontCharacter": "🐞"
+    },
+    "debug": {
+      "fontCharacter": "🐞"
+    },
+    "check": {
+      "fontCharacter": "✅"
+    },
+    "clear-all": {
+      "fontCharacter": "🧹"
+    },
+    "filter": {
+      "fontCharacter": "🚰"
+    },
+    "refresh": {
+      "fontCharacter": "♻️"
+    },
+    "gear": {
+      "fontCharacter": "⚙️"
+    },
+    // "close": {
+    // 	"fontCharacter": "🚫",
+    // },
+    "lock": {
+      "fontCharacter": "🔒"
+    },
+    "unlock": {
+      "fontCharacter": "🔓"
+    },
+    "book": {
+      "fontCharacter": "📖"
+    },
+    "comment": {
+      "fontCharacter": "💬"
+    },
+    "comment-discussion": {
+      "fontCharacter": "🗯"
+    },
+    "star": {
+      "fontCharacter": "🌟"
+    },
+    "debug-stop": {
+      "fontCharacter": "🛑"
+    },
+    "debug-pause": {
+      "fontCharacter": "⏸️"
+    },
+    "debug-continue": {
+      "fontCharacter": "▶️"
+    },
+    "debug-restart": {
+      "fontCharacter": "↪️"
+    },
+    "debug-step-over": {
+      "fontCharacter": "⬇️"
+    },
+    "debug-step-into": {
+      "fontCharacter": "⏬"
+    },
+    "debug-step-out": {
+      "fontCharacter": "⏫"
+    },
+    "light-bulb": {
+      "fontCharacter": "💡"
+    },
+    "lightbulb": {
+      "fontCharacter": "💡"
+    }
+  }
 }

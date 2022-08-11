@@ -73,9 +73,9 @@ Activity bar: [ ... 🕵️‍♂️ 📦 🧪 ... 👤 ⚙️ ]
 
 Status bar: [ 🚨 ⚠️ ... 🔔/📣 ]
 
-Other: [ 🗑 🐞 ⚙️ 🔒/🔓 💬 💡  ]
+Other: [ 🗑 🐞 ⚙️ 🔒/🔓 💬 💡 ]
 
-# Todo List
+### Todo List
 
 🚧 change skin tones or gender of emojis in settings
 
@@ -85,8 +85,7 @@ Other: [ 🗑 🐞 ⚙️ 🔒/🔓 💬 💡  ]
 
 🚧 change between Apple, and system emojis
 
-✅ product icons (icons in the bar on your left) 🗂🔎👤⚙️
-
+✅ product icons (icons in the bar on your left) 🗃️🔎👤⚙️
 
 > more ideas welcome 🙂
 >
@@ -94,13 +93,14 @@ Other: [ 🗑 🐞 ⚙️ 🔒/🔓 💬 💡  ]
 >
 > PRs welcome 👨‍🍳👌💋
 
-# Contributors
+### Contributors
 
 - **Simon** - [mightbesimon](https://github.com/mightbesimon)
+- **Liam** - [lineville](https://github.com/lineville)
 - 🤷‍♀️ - the gitignore lady
 - you?
 
-# Emoji Reference
+### Emoji Reference
 
 special files
 
@@ -111,6 +111,7 @@ special files
 - 💡 ideas.md / ideas.txt / ideas
 - ☑️ todo.md / todo.txt / todo
 - 📦 package.json
+- 📦 Cargo.toml
 - 🔒 package-lock.json
 - ⚙️ .npmrc
 - 🤷‍♀️ .npmignore
@@ -121,6 +122,7 @@ special files
 - 🚀 .vscode/launch.json
 - ☑️ .vscode/tasks.json
 - ⚙️ config.json
+- 🐭 .editorconfig
 - 🌠 favicon.ico
 - 🤖 robots.txt
 - 🐳 DOCKERFILE
@@ -148,9 +150,11 @@ file extensions
 - 🍯 .jar
 - 🏎 .c / .cpp
 - 🤠 .h / .hpp
-- #️⃣ .cs
+- ✨ .cs
+- ✨ .csproj
 - 🦩 .swift
 - 💎 .rb
+- 🦀 .rs
 - 📘 .ts
 - 📒 .js
 - ⚛️ .tsx / .jsx (react)

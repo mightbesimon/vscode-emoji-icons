@@ -5,6 +5,8 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+> Author: [mightbesimon](https://github.com/mightbesimon)
+
 ## v1.2.1 — 17 July 2022
 
 - ✨ [feature]: add `.scss` and `.cookie` file types
@@ -33,9 +35,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 v1 release 🥳
 
 - ✨ [feature]: add more markdown special files
-- 🚀 [CI/CD]: publish pipeline
-- 🧑‍💻 [dev]: auto update README.md
-- 🧑‍💻 [dev]: auto generate file icon themes from reference file
+- 🚀 [CI/CD]: automate publishing workflow
+- 🧑‍💻 [dev]: automate update README.md
+- 🧑‍💻 [dev]: automate generate file icon themes from reference file
 - 🗑 [deprecate]: apple emoji font because it is still not working even after the fix
 
 ## v0.99.99 — 8 July 2022

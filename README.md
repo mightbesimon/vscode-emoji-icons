@@ -81,9 +81,15 @@ Other: [ 🗑 🐞 ⚙️ 🔒/🔓 💬 💡  ]
 
 🚧 customise matches
 
-🚧 support more file types and folders
-
 🚧 change between Apple, and system emojis
+
+✅ support more file types and folders
+
+✅ automate publishing workflow
+
+✅ automate update README.md
+
+✅ automate generate file icon themes from reference file
 
 ✅ product icons (icons in the bar on your left) 🗂🔎👤⚙️
 
@@ -102,14 +108,22 @@ Other: [ 🗑 🐞 ⚙️ 🔒/🔓 💬 💡  ]
 
 # Emoji Reference
 
-special files
+### Special Files
+
+git
 
 - 🤷‍♀️ .gitignore
+
+docs
+
 - 📰 README.md / README
 - 🗓 CHANGELOG.md / CHANGELOG
 - 👩‍⚖️ LICENSE.md / LICENSE
 - 💡 ideas.md / ideas.txt / ideas
 - ☑️ todo.md / todo.txt / todo
+
+node
+
 - 📦 package.json
 - 🔒 package-lock.json
 - ⚙️ .npmrc
@@ -117,13 +131,22 @@ special files
 - ⚙️ tsconfig.json
 - 🃏 jest.config.ts
 - 🎭 playwright.config.ts
+
+vscode
+
 - ⚙️ .vscode/settings.json
 - 🚀 .vscode/launch.json
 - ☑️ .vscode/tasks.json
-- ⚙️ config.json
+
+web
+
 - 🌠 favicon.ico
 - 🤖 robots.txt
 - 🐳 DOCKERFILE
+
+config
+
+- ⚙️ config.json
 - 👩‍🔬 .env.test
 - 👷‍♂️ .env.development
 - 👨‍🚀 .env.production
@@ -137,20 +160,32 @@ special files
 - 🇫🇷 .env.FR
 - 🇮🇪 .env.IE
 
-file extensions
+### File Extensions
 
 - 📄 default files
 - 📝 .txt
+
+programming
+
 - 🐚 .sh / .bash
 - 🐍 .py
+- 🦩 .swift
+- 💎 .rb
+
+Java
+
 - ☕️ .java
 - 🔠 .class
 - 🍯 .jar
+
+C
+
 - 🏎 .c / .cpp
 - 🤠 .h / .hpp
 - #️⃣ .cs
-- 🦩 .swift
-- 💎 .rb
+
+web
+
 - 📘 .ts
 - 📒 .js
 - ⚛️ .tsx / .jsx (react)
@@ -161,10 +196,16 @@ file extensions
 - 🛢 .sql
 - 🍪 .cookie
 - 🗃 .json
+
+development
+
 - 📚 .md
 - 🤐 .zip
 - 🚀 .yml / .yaml
 - ⚙️ .env / .cfg / .config
+
+misc
+
 - ⚙️ .ini
 - 💿 .iso
 - 📋 .log
@@ -172,14 +213,20 @@ file extensions
 - 🔒 .lock
 - 📊 .stats
 - ☑️ .todo
+
+images
+
 - 🏞 .png / .jpg / .jpeg
 - 💃 .gif
 - 📷 .heif
 - 🎨 .svg
+
+media
+
 - 🎞 .mp4 / .mov
 - 🔈 .mp3 / .wav
 
-folders
+### Folders
 
 - 📁/📂 default folder
 - 🌿 .git

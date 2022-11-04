@@ -19,8 +19,8 @@ node
 - ⚙️ .npmrc
 - 🤷‍♀️ .npmignore
 - ⚙️ tsconfig.json
-- 🃏 jest.config.js / jest.config.ts
-- 🎭 playwright.config.js / playwright.config.ts
+- 🃏 jest.config.ts / jest.config.js
+- 🎭 playwright.config.ts / playwright.config.js
 
 vscode
 
@@ -79,13 +79,15 @@ web
 - 📘 .ts
 - 📒 .js
 - ⚛️ .tsx / .jsx (react)
-- 💅 .styles.ts (styled-components)
+- 💅 .styles.ts / .styles.js (styled-components)
 - 💅 .css / .scss
 - 🌏 .html
 - 🛢 .db / .sqlite / .sqlite3 / .mysql
 - 🛢 .sql
 - 🍪 .cookie
 - 🗃 .json
+- 🧑‍🔬 .cy.ts / .cy.js
+- 🦮 .helpers.ts / .helpers.js
 
 development
 
@@ -137,6 +139,7 @@ media
 - 🔠 types
 - 🛠 util / utils / utility / utilities
 - 👀 view / views
+- 📺 screen / screens
 - 🔓 authenticated
 - 🔒 unauthenticated
 - 🔐 authentication / auth

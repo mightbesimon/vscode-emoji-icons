@@ -73,7 +73,7 @@ Activity bar: [ ... 🕵️‍♂️ 📦 🧪 ... 👤 ⚙️ ]
 
 Status bar: [ 🚨 ⚠️ ... 🔔/📣 ]
 
-Other: [ 🗑 🐞 ⚙️ 🔒/🔓 💬 💡  ]
+Other: [ 🗑 🐞 ⚙️ 🔒/🔓 💬 💡 ]
 
 # Todo List
 
@@ -93,7 +93,6 @@ Other: [ 🗑 🐞 ⚙️ 🔒/🔓 💬 💡  ]
 
 ✅ product icons (icons in the bar on your left) 🗂🔎👤⚙️
 
-
 > more ideas welcome 🙂
 >
 > more file type requests welcome
@@ -103,6 +102,7 @@ Other: [ 🗑 🐞 ⚙️ 🔒/🔓 💬 💡  ]
 # Contributors
 
 - **Simon** - [mightbesimon](https://github.com/mightbesimon)
+- **Jake** - [JakeBriscoe](https://github.com/jakebriscoe)
 - 🤷‍♀️ - the gitignore lady
 - you?
 
@@ -129,8 +129,8 @@ node
 - ⚙️ .npmrc
 - 🤷‍♀️ .npmignore
 - ⚙️ tsconfig.json
-- 🃏 jest.config.ts
-- 🎭 playwright.config.ts
+- 🃏 jest.config.ts / jest.config.js
+- 🎭 playwright.config.ts / playwright.config.js
 
 vscode
 
@@ -168,7 +168,7 @@ config
 programming
 
 - 🐚 .sh / .bash
-- 🐍 .py
+- 🐍 .py / .py3
 - 🦩 .swift
 - 💎 .rb
 
@@ -189,13 +189,15 @@ web
 - 📘 .ts
 - 📒 .js
 - ⚛️ .tsx / .jsx (react)
-- 💅 .styles.ts (styled-components)
+- 💅 .styles.ts / .styles.js (styled-components)
 - 💅 .css / .scss
 - 🌏 .html
 - 🛢 .db / .sqlite / .sqlite3 / .mysql
 - 🛢 .sql
 - 🍪 .cookie
 - 🗃 .json
+- 🧑‍🔬 .cy.ts / .cy.js
+- 🦮 .helpers.ts / .helpers.js
 
 development
 
@@ -247,6 +249,7 @@ media
 - 🔠 types
 - 🛠 util / utils / utility / utilities
 - 👀 view / views
+- 📺 screen / screens
 - 🔓 authenticated
 - 🔒 unauthenticated
 - 🔐 authentication / auth

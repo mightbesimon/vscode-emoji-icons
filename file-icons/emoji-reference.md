@@ -6,11 +6,11 @@ git
 
 docs
 
-- 📰 README.md / README
-- 🗓 CHANGELOG.md / CHANGELOG
-- 👩‍⚖️ LICENSE.md / LICENSE
-- 💡 ideas.md / ideas.txt / ideas
-- ☑️ todo.md / todo.txt / todo
+- 📰 README.md | README
+- 🗓 CHANGELOG.md | CHANGELOG
+- 👩‍⚖️ LICENSE.md | LICENSE
+- 💡 ideas.md | ideas.txt | ideas
+- ☑️ todo.md | todo.txt | todo
 
 node
 
@@ -19,8 +19,8 @@ node
 - ⚙️ .npmrc
 - 🤷‍♀️ .npmignore
 - ⚙️ tsconfig.json
-- 🃏 jest.config.ts / jest.config.js
-- 🎭 playwright.config.ts / playwright.config.js
+- 🃏 jest.config.ts | jest.config.js
+- 🎭 playwright.config.ts | playwright.config.js
 
 vscode
 
@@ -32,7 +32,13 @@ web
 
 - 🌠 favicon.ico
 - 🤖 robots.txt
+
+application
+
 - 🐳 DOCKERFILE
+- 🔥 .firebaserc | firebase.json
+- ❄️ .flake8
+- ⚙️ pyproject.toml
 
 config
 
@@ -50,6 +56,8 @@ config
 - 🇫🇷 .env.FR
 - 🇮🇪 .env.IE
 
+#
+
 ### File Extensions
 
 - 📄 default files
@@ -57,10 +65,17 @@ config
 
 programming
 
-- 🐚 .sh / .bash
-- 🐍 .py / .py3
+- 🐚 .sh | .bash
 - 🦩 .swift
 - 💎 .rb
+- 🦀 .rs
+
+python
+
+- 🐍 .py | .py3
+- 📓 .ipynb
+- 🥚 .egg
+- 🛞 .whl
 
 Java
 
@@ -70,31 +85,32 @@ Java
 
 C
 
-- 🏎 .c / .cpp
-- 🤠 .h / .hpp
+- 🏎 .c | .cpp
+- 🤠 .h | .hpp
 - #️⃣ .cs
+- 👷‍♂️ .csproj
 
 web
 
 - 📘 .ts
 - 📒 .js
-- ⚛️ .tsx / .jsx (react)
-- 💅 .styles.ts / .styles.js (styled-components)
-- 💅 .css / .scss
+- ⚛️ .tsx | .jsx (react)
+- 💅 .css | .scss
 - 🌏 .html
-- 🛢 .db / .sqlite / .sqlite3 / .mysql
-- 🛢 .sql
+- 🛢 .db | .sql | .sqlite | .sqlite3 | .mysql
 - 🍪 .cookie
 - 🗃 .json
-- 🧑‍🔬 .cy.ts / .cy.js
-- 🦮 .helpers.ts / .helpers.js
+
+- 💅 .styles.ts | .styles.js (styled-components)
+- 🌳 .cy.ts | .cy.js (cypress)
+- 🦮 .helpers.ts | .helpers.js ()
 
 development
 
 - 📚 .md
-- 🤐 .zip
-- 🚀 .yml / .yaml
-- ⚙️ .env / .cfg / .config
+- 🤐 .zip | .tar.gz
+- 🚀 .yml | .yaml
+- ⚙️ .env | .cfg | .config
 
 misc
 
@@ -108,40 +124,61 @@ misc
 
 images
 
-- 🏞 .png / .jpg / .jpeg
+- 🏞 .png | .jpg | .jpeg
 - 💃 .gif
 - 📷 .heif
 - 🎨 .svg
 
 media
 
-- 🎞 .mp4 / .mov
-- 🔈 .mp3 / .wav
+- 🎞 .mp4 | .mov
+- 🔈 .mp3 | .wav
+
+#
 
 ### Folders
 
 - 📁/📂 default folder
+- ⬇️ downloads
+- 📑 documents
+- 📗 lib | library
+- 👤 user | users
+- 🌠 images | pic | pictures
+- 📚 doc | docs
+
 - 🌿 .git
 - 🧑‍💻 .github
 - 🚀 .github/workflows
+
 - ⚙️ .vscode
 - 📦 node_modules
-- ⛺️ temp
-- ⚙️ config / setting / settings
-- 🌠 images / thumbnails
-- 🧪 test / tests
+
+- ⚙️ config | configuration | configurations
+- ⚙️ setting | settings
+- 🏝 env | environments
+- 🏜 regions
+
+- 🧪 test | tests
 - 🔨 build
 - 🌏 public
-- 🏠 home
 - 🚰 src
+
+- ⛺️ temp
+- 🏠 home
 - 🏛 assets
 - 🧱 components
 - 🔠 types
-- 🛠 util / utils / utility / utilities
-- 👀 view / views
-- 📺 screen / screens
+- 🛠 util | utils | utility | utilities
+- 👀 view | views
+- 📺 screen | screens
+- 🛬 landing
+- 🤷‍♂️ 404 | notfound
+- 🫖 418 | teapot
+
 - 🔓 authenticated
 - 🔒 unauthenticated
-- 🔐 authentication / auth
-- 🎣 hook / hooks
+- 🔐 auth | authentication
+
+- 🥸 context | contexts
+- 🎣 hook | hooks
 - 🗄 data

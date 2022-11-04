@@ -7,11 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 > Author: [mightbesimon](https://github.com/mightbesimon)
 
+## v1.3.1 - 5 November 2022
+
+- ✨ [feature]: add firebase, flake8 and python related files and file types
+- ✨ [feature]: add OS related and other special folders
+
 ## v1.3.0 — 4 November 2022
 
 - ✨ [feature]: add cypress test files
 - ✨ [feature]: add special folders
-- 🧑‍💻 [dev]: automate generation of product icon themes from reference file
 
 ## v1.2.1 — 17 July 2022
 

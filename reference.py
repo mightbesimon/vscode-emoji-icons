@@ -33,7 +33,7 @@ class ReferenceItem:
 		text = text[2:]
 		self.emoji, text = text.split(' ', 1)
 		names, *comment = text.split(' (')
-		self.names = names.split(' / ')
+		self.names = names.split(' | ')
 		self.comment = comment[0].rstrip(')') if comment else None
 
 		if icon_type == IconType.file_extension:

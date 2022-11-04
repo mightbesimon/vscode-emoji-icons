@@ -1,4 +1,4 @@
-# Emoji File Icons 🤷‍♀️ ![publish](https://github.com/mightbesimon/vscode-emoji-icons/actions/workflows/publish.yml/badge.svg)
+# Emoji File Icons 🤷‍♀️ ![publish](https://github.com/mightbesimon/vscode-emoji-icons/actions/workflows/publish.yml/badge.svg) ![](https://img.shields.io/visual-studio-marketplace/i/mightbesimon.emoji-icons?color=white&label=&logo=visualstudiocode&logoColor=blue) ![sponsor](https://img.shields.io/github/sponsors/mightbesimon?color=red&label=Sponsor&logo=github)
 
 > [Product Icons](#emoji-product-icons) also here
 

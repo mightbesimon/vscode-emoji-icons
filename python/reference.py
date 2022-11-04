@@ -116,13 +116,16 @@ class EmojiReference:
 			'"folder": "📁",'
 			'"folderExpanded": "📂",'
 		)
+
 		file_extensions = EmojiReference._references_to_json(self.file_extensions)
 		file_names = EmojiReference._references_to_json(self.file_names)
 		folder_names = EmojiReference._references_to_json(self.folder_names)
+
 		icon_definitions = ','.join(
 			f'"{emoji}":{{"fontCharacter":"{emoji}","fontSize":"125%"}}'
 			for emoji in self.all_emojis()
 		)
+
 		return (
 			'{'
 				f'{defaults}'
@@ -142,7 +145,7 @@ class EmojiReference:
 
 		return self
 
-	def update_readme(self, filename:str=None):
+	def update_readme(self, filename:str=None) -> 'EmojiReference':
 		filename = filename if filename else 'README.md'
 
 		with open(filename, 'r') as file:
@@ -156,6 +159,8 @@ class EmojiReference:
 				readme[:readme.index('### Special Files\n\n')]
 				+ emoji_reference
 			)
+
+		return self
 
 
 ################################################################

@@ -19,8 +19,8 @@ node
 - ⚙️ .npmrc
 - 🤷‍♀️ .npmignore
 - ⚙️ tsconfig.json
-- 🃏 jest.config.ts
-- 🎭 playwright.config.ts
+- 🃏 jest.config.js / jest.config.ts
+- 🎭 playwright.config.js / playwright.config.ts
 
 vscode
 
@@ -58,7 +58,7 @@ config
 programming
 
 - 🐚 .sh / .bash
-- 🐍 .py
+- 🐍 .py / .py3
 - 🦩 .swift
 - 💎 .rb
 

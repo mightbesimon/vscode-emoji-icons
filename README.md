@@ -212,7 +212,7 @@ web
 - 🗃 .json
 
 - 💅 .styles.ts | .styles.js (styled-components)
-- 🌳 .cy.ts | .cy.js (cypress)
+- 🌲 .cy.ts | .cy.js (cypress)
 - 🦮 .helpers.ts | .helpers.js ()
 
 development

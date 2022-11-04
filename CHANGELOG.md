@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 > Author: [mightbesimon](https://github.com/mightbesimon)
 
+## v1.3.0 — 4 November 2022
+
+- ✨ [feature]: add cypress test files
+- ✨ [feature]: add special folders
+- 🧑‍💻 [dev]: automate generation of product icon themes from reference file
+
 ## v1.2.1 — 17 July 2022
 
 - ✨ [feature]: add `.scss` and `.cookie` file types
@@ -37,7 +43,7 @@ v1 release 🥳
 - ✨ [feature]: add more markdown special files
 - 🚀 [CI/CD]: automate publishing workflow
 - 🧑‍💻 [dev]: automate update README.md
-- 🧑‍💻 [dev]: automate generate file icon themes from reference file
+- 🧑‍💻 [dev]: automate generation of file icon themes from reference file
 - 🗑 [deprecate]: apple emoji font because it is still not working even after the fix
 
 ## v0.99.99 — 8 July 2022

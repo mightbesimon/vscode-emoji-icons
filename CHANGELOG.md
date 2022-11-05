@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## v1.3.2 -
 
+- 🔀 [change]: change extension icon from 📂 to 📦
 - ✨ [feature]: add github special files such as `FUNDING.yml`
 
 ## v1.3.1 - 5 November 2022

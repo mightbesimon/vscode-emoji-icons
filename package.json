@@ -2,7 +2,7 @@
 	"name": "emoji-icons",
 	"displayName": "Emoji File Icons",
 	"description": "Goof around today!",
-	"icon": "thumbnails/folder-open.png",
+	"icon": "thumbnails/package.png",
 	"galleryBanner": {
 		"color": "#23282f",
 		"theme": "dark"

@@ -42,13 +42,13 @@
 		"productIconThemes": [
 			{
 				"id": "emoji-product-icons",
-				"label": "Emoji Product Icons",
+				"label": "Emoji Product Icons (Professional)",
 				"path": "./product-icons/emoji-product-icon-theme.json"
 			},
 			{
-				"id": "emoji-product-icons-serious",
-				"label": "Emoji Product Icons (Serious)",
-				"path": "./product-icons/emoji-serious-product-icon-theme.json"
+				"id": "emoji-product-icons-fun",
+				"label": "Emoji Product Icons (Fun)",
+				"path": "./product-icons/emoji-fun-product-icon-theme.json"
 			}
 		]
 	},

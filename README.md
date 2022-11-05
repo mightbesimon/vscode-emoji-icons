@@ -61,13 +61,13 @@ You can enable file icons independently of [file icons](#file-icons-pack)
 	</tr>
 </table>
 
-## Emoji Product Icons
+## Emoji Product Icons (Fun)
 
 Activity bar: [ 📑 🗺 🔎 🌿 🕵️‍♂️ 📦 🧪 ... 👤 ⚙️ ]
 
 Status bar: [ 🌿 🔄/⤴️ 🚨 ⚠️ ... 🔔/📣 ]
 
-## Emoji Product Icons (Serious)
+## Emoji Product Icons (Professional)
 
 minus goofy emojis, only serious emojis
 

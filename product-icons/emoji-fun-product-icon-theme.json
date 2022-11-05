@@ -4,7 +4,7 @@
 			"id": "emoji-apple",
 			"src": [
 				{
-					"path": "../emoji-fonts/emoji-apple.ttf",
+					"path": "",
 					"format": "truetype",
 				},
 			],
@@ -23,90 +23,118 @@
 		"search": {
 			"fontCharacter": "🔎",
 		},
+		"source-control": {
+			"fontCharacter": "🌿",
+		},
 		"debug-alt": {
 			"fontCharacter": "🕵️‍♂️",
 		},
 		"extensions": {
 			"fontCharacter": "📦",
-			"fontId": "emoji-apple"
 		},
 		"beaker": {
 			"fontCharacter": "🧪",
-			"fontId": "emoji-apple"
 		},
 		"account": {
 			"fontCharacter": "👤",
-			"fontId": "emoji-apple"
 		},
 		"settings-gear": {
 			"fontCharacter": "⚙️",
-			"fontId": "emoji-apple"
 		},
 		/******   status bar   ******/
+		"git-branch": {
+			"fontCharacter": "🌿",
+		},
+		"sync": {
+			"fontCharacter": "🔄",
+		},
+		"cloud-upload": {
+			"fontCharacter": "⤴️",
+		},
 		"warning": {
 			"fontCharacter": "⚠️",
-			"fontId": "emoji-apple"
 		},
 		"error": {
 			"fontCharacter": "🚨",
-			"fontId": "emoji-apple"
+		},
+		"info": {
+			"fontCharacter": "ℹ️",
 		},
 		"bell": {
 			"fontCharacter": "🔔",
-			"fontId": "emoji-apple"
 		},
 		"bell-dot": {
 			"fontCharacter": "📣",
-			"fontId": "emoji-apple"
 		},
 		/******    toolbar     ******/
+		"play": {
+			"fontCharacter": "🏃‍♂️",
+		},
 		"open-preview": {
 			"fontCharacter": "👀",
-			"fontId": "emoji-apple"
+		},
+		"compare-changes": {
+			"fontCharacter": "⚖️",
+		},
+		"split-horizontal": {
+			"fontCharacter": "🤸‍♀️",
 		},
 		"trash": {
 			"fontCharacter": "🗑",
-			"fontId": "emoji-apple"
 		},
 		"trashcan": {
 			"fontCharacter": "🗑",
-			"fontId": "emoji-apple"
 		},
 		"bug": {
 			"fontCharacter": "🐞",
-			"fontId": "emoji-apple"
 		},
 		"debug": {
 			"fontCharacter": "🐞",
-			"fontId": "emoji-apple"
+		},
+		"check": {
+			"fontCharacter": "☑️",
+		},
+		"clear-all": {
+			"fontCharacter": "🧽",
+		},
+		"filter": {
+			"fontCharacter": "🚰",
+		},
+		"refresh": {
+			"fontCharacter": "🍺",
 		},
 		"gear": {
 			"fontCharacter": "⚙️",
-			"fontId": "emoji-apple"
 		},
 		"lock": {
 			"fontCharacter": "🔒",
-			"fontId": "emoji-apple",
 		},
 		"unlock": {
 			"fontCharacter": "🔓",
-			"fontId": "emoji-apple",
+		},
+		"book": {
+			"fontCharacter": "📖",
 		},
 		"comment": {
 			"fontCharacter": "💬",
-			"fontId": "emoji-apple"
 		},
 		"comment-discussion": {
-			"fontCharacter": "💬",
-			"fontId": "emoji-apple"
+			"fontCharacter": "🗯",
+		},
+		"star": {
+			"fontCharacter": "⭐️",
+		},
+		"debug-stop": {
+			"fontCharacter": "🛑",
+		},
+		"debug-restart": {
+			"fontCharacter": "🎬",
 		},
 		"light-bulb": {
 			"fontCharacter": "💡",
-			"fontId": "emoji-apple"
 		},
 		"lightbulb": {
 			"fontCharacter": "💡",
-			"fontId": "emoji-apple"
 		},
 	},
 }

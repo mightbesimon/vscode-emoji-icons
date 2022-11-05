@@ -106,4 +106,4 @@ dist
 node_modules
 .DS_Store
 .vsix
-unicode
+*icon-theme.json

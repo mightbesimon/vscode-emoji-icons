@@ -2,7 +2,7 @@
 
 [![sponsor](https://img.shields.io/github/sponsors/mightbesimon?color=red&label=Sponsor&logo=github)](https://github.com/sponsors/mightbesimon) ![](https://img.shields.io/vscode-marketplace/i/mightbesimon.emoji-icons?color=white&label=&logo=visualstudiocode&logoColor=blue) ![publish](https://github.com/mightbesimon/vscode-emoji-icons/actions/workflows/publish.yml/badge.svg)
 
-> [Product Icons](#emoji-product-icons) also here
+> [Product Icons](#emoji-product-icons-pack) also here
 
 Want to stand out from every other dev using material icons?
 
@@ -309,3 +309,64 @@ media
 - 🥸 context | contexts
 - 🎣 hook | hooks
 - 🗄 data
+
+### activity bar
+
+- 📑 files
+- 🔎 search
+- 🕵️‍♂️ debug-alt
+- 📦 extensions
+- 🧪 beaker
+- 👤 account
+- ⚙️ settings-gear
+
+moveable items
+
+- 🗺 symbol-class
+- 🖇 references
+
+extension items
+
+- 🏷 bookmark
+
+### status bar
+
+- ☁️ cloud-upload
+- ⚠️ warning
+- 🚨 error
+- 🔔 bell
+- 📣 bell-dot
+
+### identifiers
+
+- 👀 open-preview
+- 🐞 bug / debug
+- ⚙️ gear
+- 🔒 lock
+- 🔓 unlock
+- 📖 book
+- 💬 comment / comment-discussion
+- ⭐️ star
+- 💡 lightbulb
+
+### activity bar
+
+- 🌿 source-control
+
+### status bar
+
+- 🌿 git-branch
+- 🔄 sync
+- ℹ️ info
+
+### identifiers
+
+- 🏃‍♂️ play
+- ⚖️ compare-changes
+- 🤸‍♀️ split-horizontal
+- 🗑 trash / trashcan
+- 🧽 clear-all
+- 🚰 filter
+- 🍺 refresh
+- 🛑 debug-stop
+- 🎬 debug-restart

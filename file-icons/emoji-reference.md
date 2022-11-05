@@ -22,7 +22,14 @@ docs
 - 💡 PULL_REQUEST_TEMPLATE.md | PULL_REQUEST_TEMPLATE.txt | PULL_REQUEST_TEMPLATE
 - 📖 CITATION.cff
 - 💡 ideas.md | ideas.txt | ideas
-- ☑️ todo.md | todo.txt | todo
+- 🔘 todo.md | todo.txt | todo
+
+vscode
+
+- ⚙️ .vscode/settings.json
+- 🚀 .vscode/launch.json
+- ✅ .vscode/tasks.json
+- 🛒 .vscode/extensions.json
 
 node
 
@@ -33,13 +40,6 @@ node
 - ⚙️ tsconfig.json
 - 🃏 jest.config.ts | jest.config.js
 - 🎭 playwright.config.ts | playwright.config.js
-
-vscode
-
-- ⚙️ .vscode/settings.json
-- 🚀 .vscode/launch.json
-- ☑️ .vscode/tasks.json
-- 🛒 .vscode/extensions.json
 
 web
 
@@ -134,7 +134,7 @@ misc
 - 🗺 .map
 - 🔒 .lock
 - 📊 .stats
-- ☑️ .todo
+- 🔘 .todo
 
 images
 

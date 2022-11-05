@@ -6,7 +6,7 @@
 		{
 			"label": "export",
 			"type": "shell",
-			"command": "python3 reference.py",
+			"command": "python3 -m translate",
 			"group": {
 				"kind": "build",
 				"isDefault": true

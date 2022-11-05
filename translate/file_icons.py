@@ -17,8 +17,6 @@ from .emoji_mapper import EmojiMapper
 ################################################################
 class FileIconMapper(EmojiMapper):
 
-	EXPORT_FILENAME: str = 'file-icons/emoji-icon-theme.json'
-
 	def __init__(self, filename:str) -> None:
 		self.filename: str = filename
 		self.file_extensions: List[ReferenceItem] = []
@@ -45,8 +43,11 @@ class FileIconMapper(EmojiMapper):
 
 	def all_emojis(self) -> List[str]:
 		return sorted(
-			list( set( reference.emoji for reference in
-				self.file_extensions + self.file_names + self.folder_names
+			list( set( reference.emoji
+				for reference
+				in self.file_extensions
+				+ self.file_names
+				+ self.folder_names
 			))
 			+ ['📄', '📁', '📂']
 		)
@@ -79,9 +80,7 @@ class FileIconMapper(EmojiMapper):
 			'}'
 		)
 
-	def update_readme(self, filename:str=None) -> EmojiMapper:
-		filename = filename if filename else 'README.md'
-
+	def update_readme(self, filename:str='README.md') -> FileIconMapper:
 		with open(filename, 'r') as file:
 			readme = file.read()
 

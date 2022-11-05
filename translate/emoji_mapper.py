@@ -16,9 +16,6 @@ from .models import IconType, ReferenceItem, IconItem
 ################################################################
 class EmojiMapper(ABC):
 
-	EXPORT_FILENAME: str
-	README_FILENAME: str = 'README.md'
-
 	@staticmethod
 	def _text_to_references(icon_type:IconType, text:str) -> List[ReferenceItem]:
 		return [
@@ -42,8 +39,8 @@ class EmojiMapper(ABC):
 	@staticmethod
 	def _references_to_json(references:List[ReferenceItem]):
 		return ','.join(
-			f'"{file_extension.name}":"{file_extension.emoji}"'
-			for file_extension in EmojiMapper._references_to_icons(references)
+			f'"{icon.name}":"{icon.emoji}"'
+			for icon in EmojiMapper._references_to_icons(references)
 		)
 
 	@abstractmethod
@@ -59,8 +56,6 @@ class EmojiMapper(ABC):
 		raise NotImplemented
 
 	def export_icon_theme(self, filename:str=None) -> EmojiMapper:
-		filename = filename if filename else self.EXPORT_FILENAME
-
 		with open(filename, 'w') as file:
 			file.write(self.icon_theme())
 

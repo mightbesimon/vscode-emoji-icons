@@ -7,9 +7,20 @@
 		"color": "#23282f",
 		"theme": "dark"
 	},
+	"markdown": "github",
+	"badges": [
+		{
+			"url": "https://github.com/mightbesimon/vscode-emoji-icons/actions/workflows/publish.yml/badge.svg",
+			"href": "",
+			"description": "publish"
+		}
+	],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/mightbesimon/vscode-emoji-icons/"
+	},
+	"sponsor": {
+		"url": "https://github.com/sponsors/mightbesimon"
 	},
 	"author": "mightbesimon",
 	"publisher": "mightbesimon",
@@ -40,5 +51,12 @@
 				"path": "./product-icons/emoji-serious-product-icon-theme.json"
 			}
 		]
-	}
+	},
+	"keywords": [
+		"emoji",
+		"icon",
+		"file",
+		"product",
+		"theme"
+	]
 }

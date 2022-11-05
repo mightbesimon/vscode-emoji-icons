@@ -5,10 +5,36 @@ on:
     tags:
       - v*.*.*
 
+env:
+  PYTHON_VERSION: '3.8.9'
+
 jobs:
-  publish:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - run: echo VERSION=${GITHUB_REF#refs/tags/v} >> $GITHUB_ENV
-      - run: npx vsce publish ${{ env.VERSION }} -p ${{ secrets.VSCE_PAT }} --no-git-tag-version
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v3
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+    - run: python3 reference.py
+    - uses: actions/upload-artifact@v3
+      with:
+        name: build
+        path: |
+          file-icons/emoji-icon-theme.json
+          product-icons/emoji-product-icon-theme.json
+          product-icons/emoji-serious-product-icon-theme.json
+          thumbnails/
+          *.md
+          package.json
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/download-artifact@v3
+      with:
+        name: build
+        path: .
+    - run: echo VERSION=${GITHUB_REF#refs/tags/v} >> $GITHUB_ENV
+    - run: npx vsce publish ${{ env.VERSION }} -p ${{ secrets.VSCE_PAT }} --no-git-tag-version

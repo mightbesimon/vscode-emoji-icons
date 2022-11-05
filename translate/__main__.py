@@ -14,15 +14,19 @@ from .product_icons import ProductIconMapper
 ################################################################
 (
 	FileIconMapper(filename='references/file-icons.md')
-		.export_icon_theme('file-icons/emoji-icon-theme.json')
+		.export_icon_theme(filename='file-icons/emoji-icon-theme.json')
 		.update_readme()
 )
 (
-	ProductIconMapper(filename='references/product-icons.md')
-		.export_icon_theme('product-icons/emoji-product-icon-theme.json')
+	ProductIconMapper()
+		.load_reference(filename='references/product-icons.md')
+		.export_icon_theme(filename='product-icons/emoji-product-icon-theme.json')
 		.update_readme()
 )
-# (
-# 	ProductIconMapper(filename='references/product-icons-fun.md')
-# 		.export_icon_theme('product-icons/emoji-fun-product-icon-theme.json')
-# )
+(
+	ProductIconMapper()
+		.load_reference(filename='references/product-icons.md')
+		.load_reference(filename='references/product-icons-fun.md')
+		.export_icon_theme(filename='product-icons/emoji-fun-product-icon-theme.json')
+		.update_readme()
+)

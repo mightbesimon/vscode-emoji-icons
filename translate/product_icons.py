@@ -17,17 +17,18 @@ from .emoji_mapper import EmojiMapper
 ################################################################
 class ProductIconMapper(EmojiMapper):
 
-	def __init__(self, filename:str) -> None:
-		self.filename: str = filename
+	def __init__(self) -> None:
 		self.icons: List[ReferenceItem] = []
-		self._parse_data()
 
-	def _parse_data(self) -> None:
-		with open(self.filename, 'r') as file:
+	def load_reference(self, filename:str) -> ProductIconMapper:
+		with open(filename, 'r') as file:
 			content = file.read()
 
-		self.icons = EmojiMapper._text_to_references(
+		self.filename = filename
+		self.icons += EmojiMapper._text_to_references(
 			IconType.file_extension, content)
+
+		return self
 
 	def all_emojis(self) -> List[str]:
 		return sorted(list(set(

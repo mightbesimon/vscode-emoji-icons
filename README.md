@@ -310,6 +310,8 @@ media
 - 🎣 hook | hooks
 - 🗄 data
 
+#
+
 ### activity bar
 
 - 📑 files
@@ -349,6 +351,8 @@ extension items
 - ⭐️ star
 - 💡 lightbulb
 
+#
+
 ### activity bar
 
 - 🌿 source-control
@@ -370,3 +374,5 @@ extension items
 - 🍺 refresh
 - 🛑 debug-stop
 - 🎬 debug-restart
+
+#

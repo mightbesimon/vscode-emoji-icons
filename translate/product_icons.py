@@ -20,13 +20,13 @@ class ProductIconMapper(EmojiMapper):
 	def __init__(self) -> None:
 		self.icons: List[ReferenceItem] = []
 
-	def load_reference(self, filename:str) -> ProductIconMapper:
+	def load_reference(self, filename:str, icon_type:IconType) -> ProductIconMapper:
 		with open(filename, 'r') as file:
 			content = file.read()
 
 		self.filename = filename
 		self.icons += EmojiMapper._text_to_references(
-			IconType.file_extension, content)
+			icon_type, content)
 
 		return self
 

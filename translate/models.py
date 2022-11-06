@@ -14,9 +14,10 @@ from typing import List
 #######                      enums                       #######
 ################################################################
 class IconType(Enum):
-	file_extension = 'fileExtensions'
-	file_name      = 'fileNames'
-	folder_name    = 'folderNames'
+	extension = 'fileExtensions'
+	file      = 'fileNames'
+	folder    = 'folderNames'
+	product   = 'iconDefinitions'
 
 ################################################################
 #######                   dataclasses                    #######
@@ -36,7 +37,7 @@ class ReferenceItem:
 		self.names = names.split(' | ')
 		self.comment = comment[0].rstrip(')') if comment else None
 
-		if icon_type == IconType.file_extension:
+		if icon_type == IconType.extension:
 			self.names = [ name.lstrip('.') for name in self.names ]
 
 @dataclass

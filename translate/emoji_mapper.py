@@ -44,6 +44,10 @@ class EmojiMapper(ABC):
 		)
 
 	@abstractmethod
+	def load_reference(self, filename:str, icon_type:IconType) -> EmojiMapper:
+		raise NotImplemented
+
+	@abstractmethod
 	def all_emojis(self) -> List[str]:
 		raise NotImplemented
 
@@ -55,7 +59,7 @@ class EmojiMapper(ABC):
 	def update_readme(self, filename:str=None) -> EmojiMapper:
 		raise NotImplemented
 
-	def export_icon_theme(self, filename:str=None) -> EmojiMapper:
+	def export_icon_theme(self, filename:str) -> EmojiMapper:
 		with open(filename, 'w') as file:
 			file.write(self.icon_theme())
 

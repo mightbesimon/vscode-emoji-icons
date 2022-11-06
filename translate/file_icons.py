@@ -7,7 +7,7 @@
 '''
 
 from __future__ import annotations
-from typing import List
+from typing import Dict, List
 
 from .models import IconType, ReferenceItem
 from .emoji_mapper import EmojiMapper
@@ -17,37 +17,29 @@ from .emoji_mapper import EmojiMapper
 ################################################################
 class FileIconMapper(EmojiMapper):
 
-	def __init__(self, filename:str) -> None:
-		self.filename: str = filename
-		self.file_extensions: List[ReferenceItem] = []
-		self.file_names     : List[ReferenceItem] = []
-		self.folder_names   : List[ReferenceItem] = []
-		self._parse_data()
+	def __init__(self) -> None:
+		self.reference_contents: List[str] = []
+		self.references: Dict[IconType, List[ReferenceItem]] = {
+			IconType.extension : [],
+			IconType.file      : [],
+			IconType.folder    : [],
+		}
 
-	def _parse_data(self) -> None:
-		with open(self.filename, 'r') as file:
+	def load_reference(self, filename: str, icon_type: IconType) -> FileIconMapper:
+		with open(filename, 'r') as file:
 			content = file.read()
 
-		content = content[content.index('\n\n')+2:-1]
-		file_names, content = content.split('\n\n### File Extensions\n\n')
-		file_extensions, folder_names = content.split('\n\n### Folders\n\n')
+		self.reference_contents.append(content)
+		self.references[icon_type] += (EmojiMapper
+			._text_to_references(icon_type, content))
 
-		self.file_extensions = EmojiMapper._text_to_references(
-			IconType.file_extension, file_extensions)
-
-		self.file_names = EmojiMapper._text_to_references(
-			IconType.file_name, file_names)
-
-		self.folder_names = EmojiMapper._text_to_references(
-			IconType.folder_name, folder_names)
+		return self
 
 	def all_emojis(self) -> List[str]:
 		return sorted(
 			list( set( reference.emoji
-				for reference
-				in self.file_extensions
-				+ self.file_names
-				+ self.folder_names
+				for references in self.references.values()
+				for reference in references
 			))
 			+ ['📄', '📁', '📂']
 		)
@@ -60,9 +52,10 @@ class FileIconMapper(EmojiMapper):
 			'"folderExpanded": "📂",'
 		)
 
-		file_extensions = EmojiMapper._references_to_json(self.file_extensions)
-		file_names = EmojiMapper._references_to_json(self.file_names)
-		folder_names = EmojiMapper._references_to_json(self.folder_names)
+		json = {
+			icon_type: EmojiMapper._references_to_json(references)
+			for icon_type, references in self.references.items()
+		}
 
 		icon_definitions = ','.join(
 			f'"{emoji}":{{"fontCharacter":"{emoji}","fontSize":"125%"}}'
@@ -72,10 +65,10 @@ class FileIconMapper(EmojiMapper):
 		return (
 			'{'
 				f'{defaults}'
-				f'"fileExtensions":{{{file_extensions}}},'
-				f'"fileNames":{{{file_names}}},'
-				f'"folderNames":{{{folder_names}}},'
-				f'"folderNamesExpanded":{{{folder_names}}},'
+				f'"fileExtensions":{{{json[IconType.extension]}}},'
+				f'"fileNames":{{{json[IconType.file]}}},'
+				f'"folderNames":{{{json[IconType.folder]}}},'
+				f'"folderNamesExpanded":{{{json[IconType.folder]}}},'
 				f'"iconDefinitions":{{{icon_definitions}}}'
 			'}'
 		)
@@ -84,13 +77,10 @@ class FileIconMapper(EmojiMapper):
 		with open(filename, 'r') as file:
 			readme = file.read()
 
-		with open(self.filename, 'r') as file:
-			emoji_reference = file.read()
-
 		with open(filename, 'w') as file:
 			file.write(
 				readme[:readme.index('### Special Files\n\n')]
-				+ emoji_reference
+				+ '\n'.join(self.reference_contents)
 			)
 
 		return self

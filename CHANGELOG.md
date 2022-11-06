@@ -7,10 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 > Author: [mightbesimon](https://github.com/mightbesimon)
 
-## v1.3.2 -
+## v1.5.0 - 7 November 2022
 
 - 🔀 [change]: change extension icon from 📂 to 📦
+- 🔀 [change]: change ☑️ to 🔘
+- 🔀 [change]: rename product icons to professional and fun variants
 - ✨ [feature]: add github special files such as `FUNDING.yml`
+- 🧑‍💻 [dev]: automate generation of product icon themes from reference file
 
 ## v1.3.1 - 5 November 2022
 

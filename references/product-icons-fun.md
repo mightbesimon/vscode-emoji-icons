@@ -13,7 +13,7 @@
 - 🏃‍♂️ play
 - ⚖️ compare-changes
 - 🤸‍♀️ split-horizontal
-- 🗑 trash / trashcan
+- 🗑 trash | trashcan
 - 🧽 clear-all
 - 🚰 filter
 - 🍺 refresh

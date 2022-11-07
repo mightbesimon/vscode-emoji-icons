@@ -28,13 +28,13 @@ extension items
 ### identifiers
 
 - 👀 open-preview
-- 🐞 bug / debug
+- 🐞 bug | debug
 - ⚙️ gear
 - 🔒 lock
 - 🔓 unlock
 - 📖 book
-- 💬 comment / comment-discussion
+- 💬 comment | comment-discussion
 - ⭐️ star
-- 💡 lightbulb
+- 💡 lightbulb | light-bulb
 
 #

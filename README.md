@@ -1,6 +1,8 @@
 # Emoji File Icons 🤷‍♀️
 
-[![sponsor](https://img.shields.io/github/sponsors/mightbesimon?color=red&label=Sponsor&logo=github)](https://github.com/sponsors/mightbesimon) ![](https://img.shields.io/vscode-marketplace/i/mightbesimon.emoji-icons?color=white&label=&logo=visualstudiocode&logoColor=blue) ![publish](https://github.com/mightbesimon/vscode-emoji-icons/actions/workflows/publish.yml/badge.svg)
+[![sponsor](https://img.shields.io/github/sponsors/mightbesimon?color=red&label=Sponsor&logo=github)](https://github.com/sponsors/mightbesimon)
+![downloads](https://img.shields.io/vscode-marketplace/i/mightbesimon.emoji-icons?color=white&label=&logo=visualstudiocode&logoColor=blue)
+![publish](https://github.com/mightbesimon/vscode-emoji-icons/actions/workflows/publish.yml/badge.svg)
 
 > [Product Icons](#emoji-product-icons-pack) also here
 
@@ -63,7 +65,7 @@ You can enable file icons independently of [file icons](#file-icons-pack)
 
 ## Emoji Product Icons (Fun)
 
-Activity bar: [ 📑 🗺 🔎 🌿 🕵️‍♂️ 📦 🧪 ... 👤 ⚙️ ]
+Activity bar: [ 📑 🔎 🌿 🕵️‍♂️ 📦 🧪 ... 👤 ⚙️ ]
 
 Status bar: [ 🌿 🔄/⤴️ 🚨 ⚠️ ... 🔔/📣 ]
 
@@ -71,7 +73,7 @@ Status bar: [ 🌿 🔄/⤴️ 🚨 ⚠️ ... 🔔/📣 ]
 
 minus goofy emojis, only serious emojis
 
-Activity bar: [ ... 🕵️‍♂️ 📦 🧪 ... 👤 ⚙️ ]
+Activity bar: [ 📑 🔎 ... 🕵️‍♂️ 📦 🧪 ... 👤 ⚙️ ]
 
 Status bar: [ 🚨 ⚠️ ... 🔔/📣 ]
 
@@ -93,7 +95,7 @@ Other: [ 🗑 🐞 ⚙️ 🔒/🔓 💬 💡 ]
 
 ✅ automate generate file icon themes from reference file
 
-✅ product icons (icons in the bar on your left) 🗂🔎👤⚙️
+✅ product icons (icons in the bar on your left) 📑🔎📦🧪👤⚙️
 
 > more ideas welcome 🙂
 >

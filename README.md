@@ -1,18 +1,16 @@
-# Emoji File Icons 🤷‍♀️
+# Emoji File Icons 🤷‍♀️ ![version](https://img.shields.io/visual-studio-marketplace/v/mightbesimon.emoji-icons?label=)
 
 [![sponsor](https://img.shields.io/github/sponsors/mightbesimon?color=red&label=Sponsor&logo=github)](https://github.com/sponsors/mightbesimon)
 ![downloads](https://img.shields.io/vscode-marketplace/i/mightbesimon.emoji-icons?color=white&label=&logo=visualstudiocode&logoColor=blue)
 ![publish](https://github.com/mightbesimon/vscode-emoji-icons/actions/workflows/publish.yml/badge.svg)
 
 > [Product Icons](#emoji-product-icons-pack) also here
+>
+> New emojis added frequently. Accepting emoji proposal PRs!
 
-Want to stand out from every other dev using material icons?
+👉 Want to stand out from every other dev using material icons? 👈
 
-Goof around a bit today!
-
-I started making this extension ironically, ended up actually liking it too much 😅
-
-Feel free to come back every few weeks. This is still a very new project so there're still lots of features to come :)
+I started making this extension ironically, ended up actually liking it too much..
 
 # File Icons Pack
 
@@ -108,7 +106,7 @@ Other: [ 🗑 🐞 ⚙️ 🔒/🔓 💬 💡 ]
 - **Simon** - [mightbesimon](https://github.com/mightbesimon)
 - **Jake** - [JakeBriscoe](https://github.com/jakebriscoe)
 - 🤷‍♀️ - the gitignore lady
-- you?
+- 👉 you? 👈
 
 # Emoji Reference
 

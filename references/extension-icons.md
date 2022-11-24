@@ -13,6 +13,7 @@ programming
 python
 
 - 🐍 .py | .py3
+- 🪱 .pyi
 - 📓 .ipynb
 - 🥚 .egg
 - 🛞 .whl
@@ -30,6 +31,18 @@ C
 - #️⃣ .cs
 - 👷‍♂️ .csproj
 
+assembly
+
+- 🔠 .asm
+- ⏹ .obj | .o
+- 🔣 .sym
+
+typescript
+
+- 💅 .styles.ts | .styles.js (styled-components)
+- 🌲 .cy.ts | .cy.js (cypress)
+- 🦮 .helpers.ts | .helpers.js
+
 web
 
 - 📘 .ts
@@ -40,10 +53,6 @@ web
 - 🛢 .db | .sql | .sqlite | .sqlite3 | .mysql
 - 🍪 .cookie
 - 🗃 .json
-
-- 💅 .styles.ts | .styles.js (styled-components)
-- 🌲 .cy.ts | .cy.js (cypress)
-- 🦮 .helpers.ts | .helpers.js ()
 
 development
 

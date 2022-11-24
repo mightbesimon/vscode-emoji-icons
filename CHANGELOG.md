@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 > Author: [mightbesimon](https://github.com/mightbesimon)
 
+## v1.5.1 - 24 November 2022
+
+- ✨ [feature]: add python typing files `py.typed` and `.pyi`
+- ✨ [feature]: add assembly programming file extensions `.asm`, `.obj` and `sym`
+- 🔀 [change]: update README.md, package name and description
+
 ## v1.5.0 - 7 November 2022
 
 - 🔀 [change]: change extension icon from 📂 to 📦

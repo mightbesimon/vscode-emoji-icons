@@ -24,11 +24,12 @@
 - 🧪 test | tests
 - 🔨 build
 - 🌏 public
+- 🏛 assets
+- 🎞 media
 - 🚰 src
 
 - ⛺️ temp
 - 🏠 home
-- 🏛 assets
 - 🧱 components
 - 🔠 types
 - 🛠 util | utils | utility | utilities

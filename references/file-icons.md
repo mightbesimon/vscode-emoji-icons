@@ -8,9 +8,9 @@ git and github
 
 docs
 
-- 📰 README.md | README.txt | README
+- 📰 README.md | README.txt | README.rst | README
 - 🗓 CHANGELOG.md | CHANGELOG.txt | CHANGELOG
-- 👩‍⚖️ LICENSE.md | LICENSE.txt | LICENSE
+- 👩‍⚖️ LICENSE.md | LICENSE.txt | LICENSE.rst | LICENSE
 - 🙋‍♀️ SUPPORT.md | SUPPORT.txt | SUPPORT
 - 👮‍♂️ SECURITY.md | SECURITY.txt | SECURITY
 - 🤥 CODE_OF_CONDUCT.md | CODE_OF_CONDUCT
@@ -50,7 +50,8 @@ application
 
 - 🐳 DOCKERFILE
 - 🔥 .firebaserc | firebase.json
-- 🛒 requirement.txt | requirement
+- 🛒 requirements.txt | requirements
+- 🧊 py.typed
 - ⚙️ pyproject.toml
 - ❄️ .flake8
 

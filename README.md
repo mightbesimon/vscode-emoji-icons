@@ -105,6 +105,7 @@ Other: [ 🗑 🐞 ⚙️ 🔒/🔓 💬 💡 ]
 
 - **Simon** - [mightbesimon](https://github.com/mightbesimon)
 - **Jake** - [JakeBriscoe](https://github.com/jakebriscoe)
+- [theowiik](https://github.com/theowiik)
 - 🤷‍♀️ - the gitignore lady
 - 👉 you? 👈
 

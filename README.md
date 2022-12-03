@@ -195,6 +195,7 @@ programming
 - 🦩 .swift
 - 💎 .rb
 - 🦀 .rs
+- 🦫 .go
 
 python
 

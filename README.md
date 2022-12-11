@@ -16,16 +16,7 @@ I started making this extension ironically, ended up actually liking it too much
 
 You can enable file icons independently of [product icons](#emoji-product-icons-pack)
 
-<table>
-	<tr>
-		<td>
-			<img alt="root" src="thumbnails/file-icons-1.png" />
-		</td>
-		<td>
-			<img alt="src" src="thumbnails/file-icons-2.png" />
-		</td>
-	</tr>
-</table>
+![file icons](thumbnails/file-icons.png)
 
 ## Emoji File Icons
 
@@ -35,31 +26,7 @@ See [emoji reference](#emoji-reference) below.
 
 You can enable file icons independently of [file icons](#file-icons-pack)
 
-<table>
-	<tr>
-		<td>
-			<img alt="activity bar" src="thumbnails/activity-bar.png" />
-		</td>
-		<td>
-			<img alt="debug" src="thumbnails/debug.png" />
-			<img alt="status bar" src="thumbnails/status-bar-left.png" />
-		</td>
-	</tr>
-</table>
-<table>
-	<tr>
-		<td>
-			<img alt="refresh" src="thumbnails/refresh.png" />
-			<img alt="preview" src="thumbnails/editor-preview.png" />
-		</td>
-		<td>
-			<img alt="run" src="thumbnails/editor-run.png" />
-			<img alt="split" src="thumbnails/editor-split.png" />
-		</td>
-		<td>
-		</td>
-	</tr>
-</table>
+![product icons](thumbnails/product-icons.png)
 
 ## Emoji Product Icons (Fun)
 
@@ -121,9 +88,9 @@ git and github
 
 docs
 
-- 📰 README.md | README.txt | README
+- 📰 README.md | README.txt | README.rst | README
 - 🗓 CHANGELOG.md | CHANGELOG.txt | CHANGELOG
-- 👩‍⚖️ LICENSE.md | LICENSE.txt | LICENSE
+- 👩‍⚖️ LICENSE.md | LICENSE.txt | LICENSE.rst | LICENSE
 - 🙋‍♀️ SUPPORT.md | SUPPORT.txt | SUPPORT
 - 👮‍♂️ SECURITY.md | SECURITY.txt | SECURITY
 - 🤥 CODE_OF_CONDUCT.md | CODE_OF_CONDUCT
@@ -163,7 +130,8 @@ application
 
 - 🐳 DOCKERFILE
 - 🔥 .firebaserc | firebase.json
-- 🛒 requirement.txt | requirement
+- 🛒 requirements.txt | requirements
+- 🧊 py.typed
 - ⚙️ pyproject.toml
 - ❄️ .flake8
 
@@ -201,6 +169,7 @@ programming
 python
 
 - 🐍 .py | .py3
+- 🪱 .pyi
 - 📓 .ipynb
 - 🥚 .egg
 - 🛞 .whl
@@ -218,6 +187,18 @@ C
 - #️⃣ .cs
 - 👷‍♂️ .csproj
 
+assembly
+
+- 🔠 .asm
+- ⏹ .obj | .o
+- 🔣 .sym
+
+typescript
+
+- 💅 .styles.ts | .styles.js (styled-components)
+- 🌲 .cy.ts | .cy.js (cypress)
+- 🦮 .helpers.ts | .helpers.js
+
 web
 
 - 📘 .ts
@@ -228,10 +209,6 @@ web
 - 🛢 .db | .sql | .sqlite | .sqlite3 | .mysql
 - 🍪 .cookie
 - 🗃 .json
-
-- 💅 .styles.ts | .styles.js (styled-components)
-- 🌲 .cy.ts | .cy.js (cypress)
-- 🦮 .helpers.ts | .helpers.js ()
 
 development
 
@@ -267,6 +244,7 @@ media
 ### Folders
 
 - 📁/📂 default folder
+- 🏠 home
 - ⬇️ downloads
 - 📑 documents
 - 📗 lib | library
@@ -290,11 +268,11 @@ media
 - 🧪 test | tests
 - 🔨 build
 - 🌏 public
+- 🏛 assets
+- 🎞 media
 - 🚰 src
 
 - ⛺️ temp
-- 🏠 home
-- 🏛 assets
 - 🧱 components
 - 🔠 types
 - 🛠 util | utils | utility | utilities
@@ -326,12 +304,11 @@ media
 
 moveable items
 
-- 🗺 symbol-class
 - 🖇 references
 
 extension items
 
-- 🏷 bookmark
+- 🔖 bookmark
 
 ### status bar
 
@@ -352,6 +329,7 @@ extension items
 - 💬 comment | comment-discussion
 - ⭐️ star
 - 💡 lightbulb | light-bulb
+- 📒 notebook
 
 #
 

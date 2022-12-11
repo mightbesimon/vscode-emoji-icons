@@ -1,6 +1,7 @@
 ### Folders
 
 - 📁/📂 default folder
+- 🏠 home
 - ⬇️ downloads
 - 📑 documents
 - 📗 lib | library
@@ -29,7 +30,6 @@
 - 🚰 src
 
 - ⛺️ temp
-- 🏠 home
 - 🧱 components
 - 🔠 types
 - 🛠 util | utils | utility | utilities

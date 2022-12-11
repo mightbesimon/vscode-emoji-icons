@@ -10,12 +10,11 @@
 
 moveable items
 
-- 🗺 symbol-class
 - 🖇 references
 
 extension items
 
-- 🏷 bookmark
+- 🔖 bookmark
 
 ### status bar
 
@@ -36,5 +35,6 @@ extension items
 - 💬 comment | comment-discussion
 - ⭐️ star
 - 💡 lightbulb | light-bulb
+- 📒 notebook
 
 #

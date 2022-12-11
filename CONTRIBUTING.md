@@ -12,13 +12,13 @@ For the best chance of your contribution making into the next release, please fo
 
 ## Emoji Proposal Pull Requests
 
-1. add your proposals in one of the existing `.md` reference files inside `reference/` folder
+1. add your proposals in one of the existing `.md` reference files inside `references/` folder
 1. run build task (cmd+shift+B) or `$ python3 -m translate` to generate json theme files
 1. start debug (F5) to preview your changes
 
 > ⚠️ Do not commit any `*icon-theme.json` files, these will be generated in the CI/CD workflow
 
-> ⚠️ For compatibility purposes, please try to use emojis release in 2019 or earlier. You may check your emojis [here](https://unicode.org/emoji/charts/emoji-versions.html)
+> ⚠️ For compatibility purposes, please try to use emojis release in 2020 or earlier. You may check your emojis [here](https://unicode.org/emoji/charts/emoji-versions.html)
 
 In `references/*.md` files, each proposal has to follow the following format rules exactly.
 
@@ -40,7 +40,7 @@ no
 
 ```markdown
 - 1️⃣2️⃣ filename (two emojis one line)
-- 😔 leftNoSpace.ts|rightNoSpace.js
+- 😔 noLeftSpace.ts|noRightSpace.js
 - 👎 (comment out of place) .extension
 ```
 

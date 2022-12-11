@@ -7,10 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 > Author: [mightbesimon](https://github.com/mightbesimon)
 
-## v1.5.2 - 4 December 2022
+## v1.5.2 - 12 December 2022
 
 - ✨ [feature]: add go language extension 🦫
 - ❓ [question] considering increase the accepted emojis to year 2020?
+- ✨ [feature]: add notebook product icon
+- 🔀 [change]: update bookmark, remove map `symbol-class` product icon
+- 📚 [doc]: new thumbnails in `README.md`
 
 ## v1.5.1 - 24 November 2022
 

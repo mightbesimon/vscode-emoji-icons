@@ -6,7 +6,7 @@ on:
       - v*.*.*
 
 env:
-  PYTHON_VERSION: '3.8.9'
+  PYTHON_VERSION: '3.9'
 
 jobs:
   build:
@@ -38,5 +38,7 @@ jobs:
       with:
         name: build
         path: .
-    - run: echo VERSION=${GITHUB_REF#refs/tags/v} >> $GITHUB_ENV
-    - run: npx vsce publish ${{ env.VERSION }} -p ${{ secrets.VSCE_PAT }} --no-git-tag-version
+    - run: >
+        npx vsce publish ${GITHUB_REF#refs/tags/v}
+        -p ${{ secrets.VSCE_PAT }}
+        --no-git-tag-version

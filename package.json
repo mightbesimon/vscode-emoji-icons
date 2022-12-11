@@ -10,14 +10,29 @@
 	"markdown": "github",
 	"badges": [
 		{
-			"url": "https://github.com/mightbesimon/vscode-emoji-icons/actions/workflows/publish.yml/badge.svg",
+			"url": "https://img.shields.io/visual-studio-marketplace/v/mightbesimon.emoji-icons?label=",
+			"href": "https://github.com/mightbesimon/vscode-emoji-icons/tags",
+			"description": "version"
+		},
+		{
+			"url": "https://img.shields.io/vscode-marketplace/i/mightbesimon.emoji-icons?color=white&label=&logo=visualstudiocode&logoColor=blue",
 			"href": "https://mightbesimon.com",
+			"description": "downloads"
+		},
+		{
+			"url": "https://img.shields.io/badge/-Sponsor_Us-%23d73a49",
+			"href": "https://github.com/sponsors/mightbesimon",
+			"description": "sponsor"
+		},
+		{
+			"url": "https://github.com/mightbesimon/vscode-emoji-icons/actions/workflows/publish.yml/badge.svg",
+			"href": "https://github.com/mightbesimon/vscode-emoji-icons",
 			"description": "publish"
 		}
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/mightbesimon/vscode-emoji-icons/"
+		"url": "https://github.com/mightbesimon/vscode-emoji-icons"
 	},
 	"sponsor": {
 		"url": "https://github.com/sponsors/mightbesimon"

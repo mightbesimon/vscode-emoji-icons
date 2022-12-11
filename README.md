@@ -1,6 +1,6 @@
 # Emoji File Icons 🤷‍♀️ ![version](https://img.shields.io/visual-studio-marketplace/v/mightbesimon.emoji-icons?label=)
 
-[![sponsor](https://raw.githubusercontent.com/mightbesimon/mightbesimon/main/assets/sponsor.svg)](https://github.com/sponsors/mightbesimon)
+[![sponsor](https://img.shields.io/badge/-Sponsor_Us-%23d73a49)](https://github.com/sponsors/mightbesimon)
 ![downloads](https://img.shields.io/vscode-marketplace/i/mightbesimon.emoji-icons?color=white&label=&logo=visualstudiocode&logoColor=blue)
 ![publish](https://github.com/mightbesimon/vscode-emoji-icons/actions/workflows/publish.yml/badge.svg)
 

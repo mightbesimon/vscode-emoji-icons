@@ -1,6 +1,7 @@
 ### activity bar
 
 - 🌿 source-control
+- 💻 remote-explorer
 
 ### status bar
 

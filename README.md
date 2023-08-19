@@ -199,6 +199,16 @@ typescript
 - 🌲 .cy.ts | .cy.js (cypress)
 - 🦮 .helpers.ts | .helpers.js
 
+R
+
+- 📉 .R
+- 📓 .Rmd
+- ⏳ .Rhistory
+- ⚙️ .Rprofile
+- 👷‍♂️ .Rproj
+- 💾 .Rdata
+- 💾 .Rds
+
 web
 
 - 📘 .ts
@@ -216,6 +226,7 @@ development
 - 🤐 .zip | .tar.gz
 - 🚀 .yml | .yaml
 - ⚙️ .env | .cfg | .config
+- 📘 .qmd
 
 misc
 
@@ -289,6 +300,9 @@ media
 - 🥸 context | contexts
 - 🎣 hook | hooks
 - 🗄 data
+
+- 🖼️ figures
+- 📊 plots
 
 #
 

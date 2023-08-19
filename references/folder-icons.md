@@ -47,4 +47,7 @@
 - 🎣 hook | hooks
 - 🗄 data
 
+- 🖼️ figures
+- 📊 plots
+
 #

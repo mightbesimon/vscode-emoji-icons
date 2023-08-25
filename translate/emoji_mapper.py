@@ -56,7 +56,7 @@ class EmojiMapper(ABC):
 		raise NotImplemented
 
 	@abstractmethod
-	def update_readme(self, filename:str=None) -> EmojiMapper:
+	def update_readme(self, filename:str=...) -> EmojiMapper:
 		raise NotImplemented
 
 	def export_icon_theme(self, filename:str) -> EmojiMapper:

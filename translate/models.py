@@ -8,7 +8,7 @@
 
 from dataclasses import dataclass
 from enum import Enum
-from typing import List
+from typing import List, Optional
 
 ################################################################
 #######                      enums                       #######
@@ -27,7 +27,7 @@ class ReferenceItem:
 	icon_type: IconType
 	emoji: str
 	names: List[str]
-	comment: str
+	comment: Optional[str]
 
 	def __init__(self, icon_type:IconType, text:str):
 		self.icon_type = icon_type

@@ -2,6 +2,9 @@
 
 - 📄 default files
 - 📝 .txt
+- 💾 .json
+- 📗 .csv
+- 📕 .pdf
 
 programming
 
@@ -44,16 +47,6 @@ typescript
 - 🌲 .cy.ts | .cy.js (cypress)
 - 🦮 .helpers.ts | .helpers.js
 
-R
-
-- 📉 .R
-- 📓 .Rmd
-- ⏳ .Rhistory
-- ⚙️ .Rprofile
-- 👷‍♂️ .Rproj
-- 💾 .Rdata
-- 💾 .Rds
-
 web
 
 - 📘 .ts
@@ -63,7 +56,6 @@ web
 - 🌏 .html
 - 🛢 .db | .sql | .sqlite | .sqlite3 | .mysql
 - 🍪 .cookie
-- 🗃 .json
 
 development
 
@@ -71,6 +63,15 @@ development
 - 🤐 .zip | .tar.gz
 - 🚀 .yml | .yaml
 - ⚙️ .env | .cfg | .config
+
+R
+
+- 📈 .r
+- 📓 .rmd
+- ⏳ .rhistory
+- ⚙️ .rprofile
+- 👷‍♂️ .rproj
+- 💾 .rdata | .rds
 - 📘 .qmd
 
 misc

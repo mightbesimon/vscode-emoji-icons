@@ -15,6 +15,7 @@ moveable items
 extension items
 
 - 🔖 bookmark
+- 💻 remote-explorer
 
 ### status bar
 

@@ -157,6 +157,9 @@ config
 
 - 📄 default files
 - 📝 .txt
+- 💾 .json
+- 📗 .csv
+- 📕 .pdf
 
 programming
 
@@ -199,16 +202,6 @@ typescript
 - 🌲 .cy.ts | .cy.js (cypress)
 - 🦮 .helpers.ts | .helpers.js
 
-R
-
-- 📉 .R
-- 📓 .Rmd
-- ⏳ .Rhistory
-- ⚙️ .Rprofile
-- 👷‍♂️ .Rproj
-- 💾 .Rdata
-- 💾 .Rds
-
 web
 
 - 📘 .ts
@@ -218,7 +211,6 @@ web
 - 🌏 .html
 - 🛢 .db | .sql | .sqlite | .sqlite3 | .mysql
 - 🍪 .cookie
-- 🗃 .json
 
 development
 
@@ -226,6 +218,15 @@ development
 - 🤐 .zip | .tar.gz
 - 🚀 .yml | .yaml
 - ⚙️ .env | .cfg | .config
+
+R
+
+- 📈 .r
+- 📓 .rmd
+- ⏳ .rhistory
+- ⚙️ .rprofile
+- 👷‍♂️ .rproj
+- 💾 .rdata | .rds
 - 📘 .qmd
 
 misc
@@ -280,8 +281,9 @@ media
 - 🔨 build
 - 🌏 public
 - 🏛 assets
+- 🏛 res | resource | resources
 - 🎞 media
-- 🚰 src
+- 🚰 src | source
 
 - ⛺️ temp
 - 🧱 components
@@ -301,8 +303,8 @@ media
 - 🎣 hook | hooks
 - 🗄 data
 
-- 🖼️ figures
-- 📊 plots
+- 📊 figure | figures
+- 📈 plot | plots
 
 #
 
@@ -323,6 +325,7 @@ moveable items
 extension items
 
 - 🔖 bookmark
+- 💻 remote-explorer
 
 ### status bar
 
@@ -350,7 +353,6 @@ extension items
 ### activity bar
 
 - 🌿 source-control
-- 💻 remote-explorer
 
 ### status bar
 

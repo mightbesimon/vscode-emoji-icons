@@ -26,8 +26,9 @@
 - 🔨 build
 - 🌏 public
 - 🏛 assets
+- 🏛 res | resource | resources
 - 🎞 media
-- 🚰 src
+- 🚰 src | source
 
 - ⛺️ temp
 - 🧱 components
@@ -47,7 +48,7 @@
 - 🎣 hook | hooks
 - 🗄 data
 
-- 🖼️ figures
-- 📊 plots
+- 📊 figure | figures
+- 📈 plot | plots
 
 #

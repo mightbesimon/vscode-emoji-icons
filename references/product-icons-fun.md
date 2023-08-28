@@ -29,6 +29,7 @@
 - 🖥 device-desktop
 - 📱 device-mobile
 - ✏️ edit | pencil
+- 🧑‍💻 github
 - 👕 jersey
 - 🥞 layers
 - 📍 location

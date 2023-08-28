@@ -82,6 +82,7 @@ extension items
 - 🔤 symbol-text
 - 🏷 tag | tag-add | tag-remove
 - 🎯 target
+- ✅ tasklist
 - 🔭 telescope
 - 👎 thumbsdown
 - 👍 thumbsup

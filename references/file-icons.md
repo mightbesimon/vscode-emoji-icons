@@ -28,8 +28,9 @@ vscode
 
 - ⚙️ .vscode/settings.json
 - 🚀 .vscode/launch.json
-- ✅ .vscode/tasks.json
+- 📋 .vscode/tasks.json
 - 🛒 .vscode/extensions.json
+- 🤷‍♀️ .vscodeignore
 
 node
 
@@ -37,6 +38,7 @@ node
 - 🔒 package-lock.json
 - ⚙️ .npmrc
 - 🤷‍♀️ .npmignore
+- 🧽 .eslintrc.json
 - ⚙️ tsconfig.json
 - 🃏 jest.config.ts | jest.config.js
 - 🎭 playwright.config.ts | playwright.config.js
@@ -49,6 +51,7 @@ web
 application
 
 - 🐳 DOCKERFILE
+- 👷‍♂️ Makefile
 - 🔥 .firebaserc | firebase.json
 - 🛒 requirements.txt | requirements
 - 🧊 py.typed

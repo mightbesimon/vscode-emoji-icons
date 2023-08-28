@@ -11,10 +11,10 @@
 
 - 🌿 .git
 - 🧑‍💻 .github
-- 🚀 .github/workflows
+- ⚡️ .github/workflows
 - 💡 PULL_REQUEST_TEMPLATE
 
-- ⚙️ .vscode
+- 💻 .vscode
 - 📦 node_modules
 
 - ⚙️ config | configuration | configurations

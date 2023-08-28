@@ -110,8 +110,9 @@ vscode
 
 - ⚙️ .vscode/settings.json
 - 🚀 .vscode/launch.json
-- ✅ .vscode/tasks.json
+- 📋 .vscode/tasks.json
 - 🛒 .vscode/extensions.json
+- 🤷‍♀️ .vscodeignore
 
 node
 
@@ -119,6 +120,7 @@ node
 - 🔒 package-lock.json
 - ⚙️ .npmrc
 - 🤷‍♀️ .npmignore
+- 🧽 .eslintrc.json
 - ⚙️ tsconfig.json
 - 🃏 jest.config.ts | jest.config.js
 - 🎭 playwright.config.ts | playwright.config.js
@@ -131,6 +133,7 @@ web
 application
 
 - 🐳 DOCKERFILE
+- 👷‍♂️ Makefile
 - 🔥 .firebaserc | firebase.json
 - 🛒 requirements.txt | requirements
 - 🧊 py.typed
@@ -268,10 +271,10 @@ media
 
 - 🌿 .git
 - 🧑‍💻 .github
-- 🚀 .github/workflows
+- ⚡️ .github/workflows
 - 💡 PULL_REQUEST_TEMPLATE
 
-- ⚙️ .vscode
+- 💻 .vscode
 - 📦 node_modules
 
 - ⚙️ config | configuration | configurations
@@ -394,6 +397,7 @@ extension items
 - 🔤 symbol-text
 - 🏷 tag | tag-add | tag-remove
 - 🎯 target
+- ✅ tasklist
 - 🔭 telescope
 - 👎 thumbsdown
 - 👍 thumbsup
@@ -435,6 +439,7 @@ extension items
 - 🖥 device-desktop
 - 📱 device-mobile
 - ✏️ edit | pencil
+- 🧑‍💻 github
 - 👕 jersey
 - 🥞 layers
 - 📍 location

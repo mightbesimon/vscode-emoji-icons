@@ -8,6 +8,7 @@
 - 🔄 sync
 - ℹ️ info
 - 🔔 bell
+- 🔕 bell-slash
 - 🛎 bell-dot
 
 ### identifiers
@@ -28,7 +29,7 @@
 - 🎥 device-camera-video
 - 🖥 device-desktop
 - 📱 device-mobile
-- ✏️ edit | pencil
+- ✏️ edit | pencil | notebook-edit
 - 🧑‍💻 github
 - 👕 jersey
 - 🥞 layers

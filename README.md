@@ -418,6 +418,7 @@ extension items
 - 🔄 sync
 - ℹ️ info
 - 🔔 bell
+- 🔕 bell-slash
 - 🛎 bell-dot
 
 ### identifiers
@@ -438,7 +439,7 @@ extension items
 - 🎥 device-camera-video
 - 🖥 device-desktop
 - 📱 device-mobile
-- ✏️ edit | pencil
+- ✏️ edit | pencil | notebook-edit
 - 🧑‍💻 github
 - 👕 jersey
 - 🥞 layers

@@ -71,8 +71,10 @@ Other: [ 🗑 🐞 ⚙️ 🔒/🔓 💬 💡 ]
 # Contributors
 
 - **Simon** - [mightbesimon](https://github.com/mightbesimon)
-- **Jake** - [JakeBriscoe](https://github.com/jakebriscoe)
+- [Jake Briscoe](https://github.com/jakebriscoe)
 - [theowiik](https://github.com/theowiik)
+- [String Max](https://github.com/String10)
+- [Abiud Cantu](https://github.com/Abiud)
 - 🤷‍♀️ - the gitignore lady
 - 👉 you? 👈
 

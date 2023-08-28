@@ -23,8 +23,6 @@ extension items
 - ☁️ cloud-upload
 - ⚠️ warning
 - 🚨 error
-- 🔔 bell
-- 📣 bell-dot
 
 ### identifiers
 
@@ -42,10 +40,8 @@ extension items
 - 🔒 lock
 - 🔓 unlock
 - 🔑 key
-- 📖 book
 - 📓 notebook
 - 🔌 plug
-- ✏️ pencil | edit
 - 🔇 mute
 - 🔈 unmute
 - 💼 briefcase

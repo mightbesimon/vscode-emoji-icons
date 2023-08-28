@@ -7,6 +7,8 @@
 - 🌿 git-branch
 - 🔄 sync
 - ℹ️ info
+- 🔔 bell
+- 🛎 bell-dot
 
 ### identifiers
 
@@ -19,10 +21,14 @@
 - 🍺 refresh
 - 🛑 debug-stop
 - 🎬 debug-restart
+- 🤫 mute
+- 👂 unmute
 - 🅱️ bold
+- 📖 book
 - 🎥 device-camera-video
 - 🖥 device-desktop
 - 📱 device-mobile
+- ✏️ edit | pencil
 - 👕 jersey
 - 🥞 layers
 - 📍 location

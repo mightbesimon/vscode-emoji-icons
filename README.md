@@ -335,8 +335,6 @@ extension items
 - ☁️ cloud-upload
 - ⚠️ warning
 - 🚨 error
-- 🔔 bell
-- 📣 bell-dot
 
 ### identifiers
 
@@ -354,10 +352,8 @@ extension items
 - 🔒 lock
 - 🔓 unlock
 - 🔑 key
-- 📖 book
 - 📓 notebook
 - 🔌 plug
-- ✏️ pencil | edit
 - 🔇 mute
 - 🔈 unmute
 - 💼 briefcase
@@ -417,6 +413,8 @@ extension items
 - 🌿 git-branch
 - 🔄 sync
 - ℹ️ info
+- 🔔 bell
+- 🛎 bell-dot
 
 ### identifiers
 
@@ -429,10 +427,14 @@ extension items
 - 🍺 refresh
 - 🛑 debug-stop
 - 🎬 debug-restart
+- 🤫 mute
+- 👂 unmute
 - 🅱️ bold
+- 📖 book
 - 🎥 device-camera-video
 - 🖥 device-desktop
 - 📱 device-mobile
+- ✏️ edit | pencil
 - 👕 jersey
 - 🥞 layers
 - 📍 location

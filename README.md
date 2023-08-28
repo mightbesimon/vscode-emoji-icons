@@ -185,7 +185,7 @@ python
 Java
 
 - ☕️ .java
-- 🔠 .class
+- 🎃 .class
 - 🍯 .jar
 
 C
@@ -390,6 +390,7 @@ extension items
 - 💾 save
 - 🔎 search-save
 - 🙂 smiley
+- ✨ sparkle
 - 🐿 squirrel
 - 🎨 symbol-color
 - 🧊 symbol-constant
@@ -436,6 +437,10 @@ extension items
 - 👂 unmute
 - 🅱️ bold
 - 📖 book
+- 🔺 debug-breakpoint-function | debug-breakpoint-function-disabled
+- 🔺 debug-breakpoint-function-unverified
+- 🔹 debug-breakpoint-log | debug-breakpoint-log-disabled
+- 🔸 debug-breakpoint-log-unverified
 - 🎥 device-camera-video
 - 🖥 device-desktop
 - 📱 device-mobile

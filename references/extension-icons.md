@@ -25,7 +25,7 @@ python
 Java
 
 - ☕️ .java
-- 🔠 .class
+- 🎃 .class
 - 🍯 .jar
 
 C

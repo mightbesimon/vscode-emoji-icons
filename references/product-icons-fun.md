@@ -26,6 +26,10 @@
 - 👂 unmute
 - 🅱️ bold
 - 📖 book
+- 🔺 debug-breakpoint-function | debug-breakpoint-function-disabled
+- 🔺 debug-breakpoint-function-unverified
+- 🔹 debug-breakpoint-log | debug-breakpoint-log-disabled
+- 🔸 debug-breakpoint-log-unverified
 - 🎥 device-camera-video
 - 🖥 device-desktop
 - 📱 device-mobile

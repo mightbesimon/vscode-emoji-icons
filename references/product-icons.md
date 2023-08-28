@@ -75,6 +75,7 @@ extension items
 - 💾 save
 - 🔎 search-save
 - 🙂 smiley
+- ✨ sparkle
 - 🐿 squirrel
 - 🎨 symbol-color
 - 🧊 symbol-constant

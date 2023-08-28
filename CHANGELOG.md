@@ -7,12 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 > Author: [mightbesimon](https://github.com/mightbesimon)
 
+## v1.6.1 - 29 August 2023
+
+- ✨ [feature]: add `.eslintrc.json` 🧽 and `Makefile` 👷‍♂️
+- ✨ [feature]: add `sparkle`, `bell-dash` product icons missing from vscode doc
+- 🔀 [change]: `.github/workflows` from 🚀 to ⚡️
+- 🔀 [change]: `.vscode/tasks.json` from ✅ to 📋
+- 🔀 [change]: `.vscode` from ⚙️ to 💻
+- 🔀 [change]: `.class` from 🔠 to 🎃 to match symbol class
+- 🔀 [change]: move some product icons into fun
+
 ## v1.6.0 - 28 August 2023
 
 - ✨ [feature]: add remote explorer product icon 📡
 - ✨ [feature]: introduce much more product icon coverage 🎃
 - ✨ [feature]: add R language related extension icons 📈
 - ✨ [feature]: add `.csv` and `.pdf` extension icons
+- 🔀 [change]: `.json` from 🗃 to 💾
 - 🧑‍💻 [dev]: set pre-launch task to export
 
 ## v1.5.2 - 12 December 2022

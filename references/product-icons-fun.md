@@ -19,5 +19,21 @@
 - 🍺 refresh
 - 🛑 debug-stop
 - 🎬 debug-restart
+- 🅱️ bold
+- 🎥 device-camera-video
+- 🖥 device-desktop
+- 📱 device-mobile
+- 👕 jersey
+- 🥞 layers
+- 📍 location
+- 💅 paintcan
+- 📰 preview
+- 👀 eye | eye-unwatch | eye-watch
+- 📡 radio-tower
+- 🎛 settings | dashboard
+- 🛡 shield
+- 🐧 terminal-linux
+- 🖥 vm
+- 🪟 window
 
 #

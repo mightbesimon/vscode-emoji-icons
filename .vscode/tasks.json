@@ -9,8 +9,8 @@
 			"command": "python3 -m translate",
 			"group": {
 				"kind": "build",
-				"isDefault": true
-			}
-		}
-	]
+				"isDefault": true,
+			},
+		},
+	],
 }

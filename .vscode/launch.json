@@ -9,10 +9,10 @@
 			"name": "Extension",
 			"type": "extensionHost",
 			"request": "launch",
+			"preLaunchTask": "export",
 			"args": [
-				"--extensionDevelopmentPath=${workspaceFolder}"
+				"--extensionDevelopmentPath=${workspaceFolder}",
 			],
-			"preLaunchTask": "export"
-		}
-	]
+		},
+	],
 }

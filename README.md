@@ -214,7 +214,7 @@ web
 - ⚛️ .tsx | .jsx (react)
 - 💅 .css | .scss
 - 🌏 .html
-- 🛢 .db | .sql | .sqlite | .sqlite3 | .mysql
+- 🛢 .db | .sql | .sqlite | .sqlite3 | .mysql | .prql
 - 🍪 .cookie
 
 development

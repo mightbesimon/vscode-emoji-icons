@@ -155,6 +155,10 @@ config
 - 🇩🇪 .env.DE
 - 🇫🇷 .env.FR
 - 🇮🇪 .env.IE
+- 🇮🇹 .env.IT
+- 🇳🇴 .env.NO
+- 🇸🇪 .env.SE
+- 🇺🇦 .env.UA
 
 #
 
@@ -212,7 +216,7 @@ web
 - 📘 .ts
 - 📒 .js
 - ⚛️ .tsx | .jsx (react)
-- 💅 .css | .scss
+- 💅 .css | .sass | .scss | .less
 - 🌏 .html
 - 🛢 .db | .sql | .sqlite | .sqlite3 | .mysql | .prql
 - 🍪 .cookie
@@ -220,7 +224,7 @@ web
 development
 
 - 📚 .md
-- 🤐 .zip | .tar.gz
+- 🤐 .7z | .zip | .tar.gz | .tar.xz | .zst
 - 🚀 .yml | .yaml
 - ⚙️ .env | .cfg | .config
 
@@ -240,21 +244,21 @@ misc
 - 💿 .iso
 - 📋 .log
 - 🗺 .map
-- 🔒 .lock
+- 🔒 .lock | bun.lockb
 - 📊 .stats
 - 🔘 .todo
 
 images
 
-- 🏞 .png | .jpg | .jpeg
+- 🏞 .avif | .png | .jpg | .jpeg | .jxl | .qoi | .webp
 - 💃 .gif
 - 📷 .heif
 - 🎨 .svg
 
 media
 
-- 🎞 .mp4 | .mov
-- 🔈 .mp3 | .wav
+- 🎞 .mkv | .mp4 | .mov | .ogv | .qt
+- 🔈 .flac | .mp3 | .ogg | .opus | .wav
 
 #
 

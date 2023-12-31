@@ -75,6 +75,7 @@ Other: [ 🗑 🐞 ⚙️ 🔒/🔓 💬 💡 ]
 - [theowiik](https://github.com/theowiik)
 - [String Max](https://github.com/String10)
 - [Abiud Cantu](https://github.com/Abiud)
+- [dood](https://github.com/itsamedood)
 - 🤷‍♀️ - the gitignore lady
 - 👉 you? 👈
 

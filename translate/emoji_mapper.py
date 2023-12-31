@@ -9,6 +9,7 @@
 from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import List
+from pathlib import Path
 from .models import IconType, ReferenceItem, IconItem
 
 ################################################################
@@ -60,6 +61,11 @@ class EmojiMapper(ABC):
 		raise NotImplemented
 
 	def export_icon_theme(self, filename:str) -> EmojiMapper:
+		Path(filename).parent.mkdir(
+			parents=True,
+			exist_ok=True,
+		)
+
 		with open(filename, 'w') as file:
 			file.write(self.icon_theme())
 

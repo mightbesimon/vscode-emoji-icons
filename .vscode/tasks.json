@@ -6,7 +6,10 @@
 		{
 			"label": "export",
 			"type": "shell",
-			"command": "mkdir -p file-icons; mkdir -p product-icons; python3 -m translate",
+			"command": [
+				"mkdir -p file-icons product-icons\n",
+				"python3 -m translate",
+			],
 			"group": {
 				"kind": "build",
 				"isDefault": true,

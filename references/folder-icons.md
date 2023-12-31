@@ -29,6 +29,7 @@
 - 🏛 res | resource | resources
 - 🎞 media
 - 🚰 src | source
+- 🗑️ bin | out
 
 - ⛺️ temp
 - 🧱 components
@@ -39,6 +40,8 @@
 - 🛬 landing
 - 🤷‍♂️ 404 | notfound
 - 🫖 418 | teapot
+- 🎛️ commands
+- 🔔 events
 
 - 🔓 authenticated
 - 🔒 unauthenticated

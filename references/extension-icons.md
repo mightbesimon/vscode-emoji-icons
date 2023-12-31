@@ -5,14 +5,22 @@
 - 💾 .json
 - 📗 .csv
 - 📕 .pdf
+- 🗒️ .xml
 
 programming
 
 - 🐚 .sh | .bash
 - 🦩 .swift
-- 💎 .rb
+- 💎 .rb | .spec
 - 🦀 .rs
 - 🦫 .go
+- 🌚 .lua
+- 🧠 .bf
+
+Haxe
+
+- 🔶 .hx
+- 📙 .hxml
 
 python
 
@@ -63,6 +71,7 @@ development
 - 🤐 .zip | .tar.gz
 - 🚀 .yml | .yaml
 - ⚙️ .env | .cfg | .config
+- 🐀 .editorconfig
 
 R
 
@@ -83,6 +92,7 @@ misc
 - 🔒 .lock
 - 📊 .stats
 - 🔘 .todo
+- 📦 .pkg
 
 images
 

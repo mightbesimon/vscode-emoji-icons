@@ -1,8 +1,9 @@
 ### Special Files
 
-git and github
+git, github
 
 - 🤷‍♀️ .gitignore
+- 👩‍🔧 .gitconfig
 - 💵 FUNDING.yml
 - 🤖 dependabot.yml
 
@@ -32,46 +33,79 @@ vscode
 - 🛒 .vscode/extensions.json
 - 🤷‍♀️ .vscodeignore
 
-node
+node, yarn, bun
 
 - 📦 package.json
 - 🔒 package-lock.json
+- 🌯 npm-shrinkwrap.json
 - ⚙️ .npmrc
 - 🤷‍♀️ .npmignore
+- 🧶 yarn.lock
+- 🧶 .yarnrc | .yarnrc.yml
 - 🧽 .eslintrc.json
 - ⚙️ tsconfig.json
 - 🃏 jest.config.ts | jest.config.js
 - 🎭 playwright.config.ts | playwright.config.js
+- 🌭 bun.lockb
 
 web
 
 - 🌠 favicon.ico
 - 🤖 robots.txt
+- 🍪 cookie.txt
+- 🗺 sitemap.xml
+- 📜 manifest.json
+
+web services
+
+- 🔥 firebase.json
+- 🔥 .firebaserc
+- 🔥 .config/configstore/firebase-tools.json
+
+python
+
+- 🛒 requirements.txt | requirements
+- 🧊 py.typed
+- 📦 pyproject.toml
+- 📜 MANIFEST.in
+- 🌈 .config/pycodestyle
+- ❄️ .config/flake8
+- ❄️ .flake8
 
 application
 
 - 🐳 DOCKERFILE
 - 👷‍♂️ Makefile
-- 🔥 .firebaserc | firebase.json
-- 🛒 requirements.txt | requirements
-- 🧊 py.typed
-- ⚙️ pyproject.toml
-- ❄️ .flake8
+- 🍺 Brewfile | Brewfile.lock.json
+- 🔒 Gemfile.lock
+- 🌈 .config/neofetch/config.conf
+- 🐀 .editorconfig
+- 🤫 .hushlogin
 
-config
+environments
 
 - ⚙️ config.json
+- ⚙️ .env | .environ
 - 👩‍🔬 .env.test
 - 👷‍♂️ .env.development
 - 👨‍🚀 .env.production
 - 🇳🇿 .env.NZ
 - 🇦🇺 .env.AU
-- 🇨🇳 .env.CN
-- 🇺🇸 .env.US
-- 🇨🇦 .env.CA
 - 🇬🇧 .env.UK
+- 🇨🇦 .env.CA
+- 🇺🇸 .env.US
+- 🇨🇳 .env.CN
 - 🇩🇪 .env.DE
+- 🇦🇹 .env.AT
+- 🇨🇭 .env.CH
+- 🇧🇪 .env.BE
 - 🇫🇷 .env.FR
+- 🇮🇹 .env.IT
 - 🇮🇪 .env.IE
+- 🇩🇰 .env.DK
+- 🇸🇪 .env.SE
+- 🇫🇮 .env.FI
+- 🇳🇴 .env.NO
+- 🇮🇸 .env.IS
 
 #

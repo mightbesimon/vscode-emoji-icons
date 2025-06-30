@@ -96,16 +96,17 @@ environments
 - 🇺🇸 .env.US
 - 🇨🇳 .env.CN
 - 🇩🇪 .env.DE
+- 🇩🇰 .env.DK
 - 🇦🇹 .env.AT
 - 🇨🇭 .env.CH
 - 🇧🇪 .env.BE
 - 🇫🇷 .env.FR
 - 🇮🇹 .env.IT
 - 🇮🇪 .env.IE
-- 🇩🇰 .env.DK
 - 🇸🇪 .env.SE
 - 🇫🇮 .env.FI
 - 🇳🇴 .env.NO
 - 🇮🇸 .env.IS
+- 🇺🇦 .env.UA
 
 #
